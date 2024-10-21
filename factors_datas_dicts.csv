@@ -1,427 +1,423 @@
-﻿size,市值,捕捉大盘股和小盘股之间的收益差异,,
-beta,贝塔,表征股票相对于市场的波动敏感度,,
-momentum,传统动量,描述了过去两年里相对强势的股票与弱势股票之间的差异,,
-residual_volatility,残差波动率,解释了剥离了市场风险后的波动率高低产生的收益率差异,,
-non_linear_size,非线性市值,描述了无法由规模因子解释的但与规模有关的收益差异，通常代表中盘股,,
-book_to_price_ratio,账面市值比,"描述了股票估值高低不同而产生的收益差异, 即价值因子",,
-liquidity,流动性,解释了由股票相对的交易活跃度不同而产生的收益率差异,,
-earnings_yield,盈利能力,描述了由盈利收益导致的收益差异,,
-growth,成长,描述了对销售或盈利增长预期不同而产生的收益差异,,
-leverage,杠杆,描述了高杠杆股票与低杠杆股票之间的收益差异,,
-net_profit_to_total_operate_revenue_ttm,净利润与营业总收入之比,净利润与营业总收入之比=净利润（TTM）/营业总收入（TTM）,,
-cfo_to_ev,经营活动产生的现金流量净额与企业价值之比TTM,经营活动产生的现金流量净额TTM / 企业价值。其中，企业价值=司市值+负债合计-货币资金,,
-accounts_payable_turnover_days,应付账款周转天数,应付账款周转天数 = 360 / 应付账款周转率,,
-net_profit_ratio,销售净利率,售净利率=净利润（TTM）/营业收入（TTM）,,
-net_non_operating_income_to_total_profit,营业外收支利润净额/利润总额,营业外收支利润净额/利润总额,,
-fixed_asset_ratio,固定资产比率,固定资产比率=(固定资产+工程物资+在建工程)/总资产,,
-account_receivable_turnover_days,应收账款周转天数,应收账款周转天数=360/应收账款周转率,,
-DEGM,毛利率增长,毛利率增长=(今年毛利率（TTM）/去年毛利率（TTM）)-1,,
-sale_expense_to_operating_revenue,营业费用与营业总收入之比,营业费用与营业总收入之比=销售费用（TTM）/营业总收入（TTM）,,
-operating_tax_to_operating_revenue_ratio_ttm,销售税金率,销售税金率=营业税金及附加（TTM）/营业收入（TTM）,,
-inventory_turnover_days,存货周转天数,存货周转天数=360/存货周转率,,
-OperatingCycle,营业周期,应收账款周转天数+存货周转天数,,
-net_operate_cash_flow_to_operate_income,经营活动产生的现金流量净额与经营活动净收益之比,经营活动产生的现金流量净额（TTM）/(营业总收入（TTM）-营业总成本（TTM））,,
-net_operating_cash_flow_coverage,净利润现金含量,经营活动产生的现金流量净额/归属于母公司所有者的净利润,,
-quick_ratio,速动比率,速动比率=(流动资产合计-存货)/ 流动负债合计,,
-intangible_asset_ratio,无形资产比率,无形资产比率=(无形资产+研发支出+商誉)/总资产,,
-MLEV,市场杠杆,市场杠杆=非流动负债合计/(非流动负债合计+总市值),,
-debt_to_equity_ratio,产权比率,产权比率=负债合计/归属母公司所有者权益合计,,
-super_quick_ratio,超速动比率,（货币资金+交易性金融资产+应收票据+应收帐款+其他应收款）／流动负债合计,,
-inventory_turnover_rate,存货周转率,存货周转率=营业成本（TTM）/存货,,
-operating_profit_growth_rate,营业利润增长率,营业利润增长率=(今年营业利润（TTM）/去年营业利润（TTM）)-1,,
-long_debt_to_working_capital_ratio,长期负债与营运资金比率,长期负债与营运资金比率=非流动负债合计/(流动资产合计-流动负债合计),,
-current_ratio,流动比率(单季度),流动比率=流动资产合计/流动负债合计,,
-net_operate_cash_flow_to_net_debt,经营活动产生现金流量净额/净债务,经营活动产生现金流量净额/净债务,,
-net_operate_cash_flow_to_asset,总资产现金回收率,经营活动产生的现金流量净额(ttm) / 总资产,,
-non_current_asset_ratio,非流动资产比率,非流动资产比率=非流动资产合计/总资产,,
-total_asset_turnover_rate,总资产周转率,总资产周转率=营业收入(ttm)/总资产,,
-long_debt_to_asset_ratio,长期借款与资产总计之比,长期借款与资产总计之比=长期借款/总资产,,
-debt_to_tangible_equity_ratio,有形净值债务率,负债合计/有形净值 其中有形净值=股东权益-无形资产净值，无形资产净值= 商誉+无形资产,,
-ROAEBITTTM,总资产报酬率,（利润总额（TTM）+利息支出（TTM）） / 总资产在过去12个月的平均,,
-operating_profit_ratio,营业利润率,营业利润率=营业利润（TTM）/营业收入（TTM）,,
-long_term_debt_to_asset_ratio,长期负债与资产总计之比,长期负债与资产总计之比=非流动负债合计/总资产,,
-current_asset_turnover_rate,流动资产周转率TTM,过去12个月的营业收入/过去12个月的平均流动资产合计,,
-financial_expense_rate,财务费用与营业总收入之比,财务费用（TTM） / 营业总收入（TTM）,,
-operating_profit_to_total_profit,经营活动净收益/利润总额,经营活动净收益/利润总额,,
-debt_to_asset_ratio,债务总资产比,债务总资产比=负债合计/总资产,,
-equity_to_fixed_asset_ratio,股东权益与固定资产比率,股东权益与固定资产比率=股东权益/(固定资产+工程物资+在建工程),,
-net_operate_cash_flow_to_total_liability,经营活动产生的现金流量净额/负债合计,经营活动产生的现金流量净额/负债合计,,
-cash_rate_of_sales,经营活动产生的现金流量净额与营业收入之比,经营活动产生的现金流量净额（TTM） / 营业收入（TTM）,,
-operating_profit_to_operating_revenue,营业利润与营业总收入之比,营业利润与营业总收入之比=营业利润（TTM）/营业总收入（TTM）,,
-roa_ttm,资产回报率TTM,资产回报率=净利润（TTM）/期末总资产,,
-admin_expense_rate,管理费用与营业总收入之比,管理费用与营业总收入之比=管理费用（TTM）/营业总收入（TTM）,,
-fixed_assets_turnover_rate,固定资产周转率,等于过去12个月的营业收入/过去12个月的平均（固定资产+工程物资+在建工程）,,
-invest_income_associates_to_total_profit,对联营和合营公司投资收益/利润总额,对联营和营公司投资收益/利润总额,,
-equity_to_asset_ratio,股东权益比率,股东权益比率=股东权益/总资产,,
-goods_service_cash_to_operating_revenue_ttm,销售商品提供劳务收到的现金与营业收入之比,销售商品提供劳务收到的现金与营业收入之比=销售商品和提供劳务收到的现金（TTM）/营业收入（TTM）,,
-cash_to_current_liability,现金比率,期末现金及现金等价物余额/流动负债合计的12个月均值,,
-net_operate_cash_flow_to_total_current_liability,现金流动负债比,现金流动负债比=经营活动产生的现金流量净额（TTM）/流动负债合计,,
-ACCA,现金流资产比和资产回报率之差,"现金流资产比-资产回报率,其中现金流资产比=经营活动产生的现金流量净额/总资产",,
-roe_ttm,权益回报率TTM,权益回报率=净利润（TTM）/期末股东权益,,
-accounts_payable_turnover_rate,应付账款周转率,"TTM(营业成本,0)/（AvgQ(应付账款,4,0) + AvgQ(应付票据,4,0) + AvgQ(预付款项,4,0) ）",,
-gross_income_ratio,销售毛利率,销售毛利率=(营业收入（TTM）-营业成本（TTM）)/营业收入（TTM）,,
-adjusted_profit_to_total_profit,扣除非经常损益后的净利润/利润总额,扣除非经常损益后的净利润/利润总额,,
-account_receivable_turnover_rate,应收账款周转率,即，TTM(营业收入)/（TTM(应收账款) + TTM(应收票据) + TTM(预收账款) ）,,
-equity_turnover_rate,股东权益周转率,股东权益周转率=营业收入(ttm)/股东权益,,
-total_profit_to_cost_ratio,成本费用利润率,成本费用利润率=利润总额/(营业成本+财务费用+销售费用+管理费用)，以上科目使用的都是TTM的数值,,
-operating_cost_to_operating_revenue_ratio,销售成本率,销售成本率=营业成本（TTM）/营业收入（TTM）,,
-LVGI,财务杠杆指数,本期(年报)资产负债率/上期(年报)资产负债率,,
-SGI,营业收入指数,本期(年报)营业收入/上期(年报)营业收入,,
-GMI,毛利率指数,上期(年报)毛利率/本期(年报)毛利率,,
-DSRI,应收账款指数,本期(年报)应收账款占营业收入比例/上期(年报)应收账款占营业收入比例,,
-rnoa_ttm,经营资产回报率TTM,销售利润率*经营资产周转率,,
-profit_margin_ttm,销售利润率TTM,营业利润/营业收入,,
-roe_ttm_8y,长期权益回报率TTM,8年(1+roe_ttm)的累乘 ^ (1/8) - 1 # 至少要有近4年的数据，否则为 nan,,
-asset_turnover_ttm,经营资产周转率TTM,营业收入TTM/近4个季度期末净经营性资产均值; 净经营性资产=经营资产-经营负债,,
-roic_ttm,投资资本回报率TTM,权益回报率=归属于母公司股东的净利润（TTM）/ 前四个季度投资资本均值; 投资资本=股东权益+负债合计-无息流动负债-无息非流动负债; 无息流动负债=应付账款+预收款项+应付职工薪酬+应交税费+其他应付款+一年内的递延收益+其它流动负债; 无息非流动负债=非流动负债合计-长期借款-应付债券；,,
-roa_ttm_8y,长期资产回报率TTM,8年(1+roa_ttm)的乘积 ^ (1/8) - 1 # 至少要有近4年的数据，否则为 nan,,
-SGAI,销售管理费用指数,本期(年报)销售管理费用占营业收入的比例/上期(年报)销售管理费用占营业收入的比例,,
-DEGM_8y,长期毛利率增长,过去8年(1+DEGM)的累成 ^ (1/8) - 1,,
-maximum_margin,最大盈利水平,"max(margin_stability, DEGM_8y)",,
-margin_stability,盈利能力稳定性,mean(GM)/std(GM); GM 为过去8年毛利率ttm,,
-,,,,
-基础因子,,,,
-因子 code,因子名称,计算方法,,
-net_working_capital,净运营资本,流动资产 － 流动负债,,
-total_operating_revenue_ttm,营业总收入TTM,计算过去12个月的 营业总收入 之和,,
-operating_profit_ttm,营业利润TTM,计算过去12个月 营业利润 之和,,
-net_operate_cash_flow_ttm,经营活动现金流量净额TTM,计算过去12个月 经营活动产生的现金流量净值 之和,,
-operating_revenue_ttm,营业收入TTM,计算过去12个月的 营业收入 之和,,
-interest_carry_current_liability,带息流动负债,流动负债合计 - 无息流动负债,,
-sale_expense_ttm,销售费用TTM,计算过去12个月 销售费用 之和,,
-gross_profit_ttm,毛利TTM,过去12个月的 毛利润 之和,,
-retained_earnings,留存收益,盈余公积金+未分配利润,,
-total_operating_cost_ttm,营业总成本TTM,计算过去12个月的 营业总成本 之和,,
-non_operating_net_profit_ttm,营业外收支净额TTM,营业外收入（TTM） - 营业外支出（TTM）,,
-net_invest_cash_flow_ttm,投资活动现金流量净额TTM,计算过去12个月 投资活动现金流量净额 之和,,
-financial_expense_ttm,财务费用TTM,计算过去12个月 财务费用 之和,,
-administration_expense_ttm,管理费用TTM,计算过去12个月 管理费用 之和,,
-net_interest_expense,净利息费用,利息支出-利息收入,,
-value_change_profit_ttm,价值变动净收益TTM,计算过去12个月 价值变动净收益 之和,,
-total_profit_ttm,利润总额TTM,计算过去12个月 利润总额 之和,,
-net_finance_cash_flow_ttm,筹资活动现金流量净额TTM,计算过去12个月 筹资活动现金流量净额 之和,,
-interest_free_current_liability,无息流动负债,应付票据+应付账款+预收账款(用 预售款项 代替)+应交税费+应付利息+其他应付款+其他流动负债,,
-EBIT,息税前利润,净利润+所得税+财务费用,,
-net_profit_ttm,净利润TTM,计算过去12个月 净利润 之和,,
-OperateNetIncome,经营活动净收益,经营活动净收益/利润总额(%) * 利润总额,,
-EBITDA,息税折旧摊销前利润（报告期）,一般企业：（营业总收入-营业税金及附加）-（营业成本+利息支出+手续费及佣金支出+销售费用+管理费用+研发费用+资产减值损失）+（固定资产折旧、油气资产折耗、生产性生物资产折旧）+无形资产摊销+长期待摊费用摊销;,,
-,,银行业：（营业总收入-营业税金及附加）-（营业成本+管理费用+资产减值损失）+（固定资产折旧、油气资产折耗、生产性生物资产折旧+无形资产摊销+长期待摊费用摊销）,,
-asset_impairment_loss_ttm,资产减值损失TTM,计算过去12个月 资产减值损失 之和,,
-np_parent_company_owners_ttm,归属于母公司股东的净利润TTM,计算过去12个月 归属于母公司股东的净利润 之和,,
-operating_cost_ttm,营业成本TTM,计算过去12个月的 营业成本 之和,,
-net_debt,净债务,总债务-期末现金及现金等价物余额,,
-non_recurring_gain_loss,非经常性损益,归属于母公司股东的净利润-扣除非经常损益后的净利润(元),,
-goods_sale_and_service_render_cash_ttm,销售商品提供劳务收到的现金,计算过去12个月 销售商品提供劳务收到的现金 之和,,
-market_cap,市值,市值,,
-cash_flow_to_price_ratio,现金流市值比,1 / pcf_ratio (ttm),,
-sales_to_price_ratio,营收市值比,1 / ps_ratio (ttm),,
-circulating_market_cap,流通市值,流通市值,,
-operating_assets,经营性资产,总资产 - 金融资产,,
-financial_assets,金融资产,货币资金 + 交易性金融资产 + 应收票据 + 应收利息 + 应收股利 + 可供出售金融资产 + 持有至到期投资,,
-operating_liability,经营性负债,总负债 - 金融负债,,
-financial_liability,金融负债,(流动负债合计-无息流动负债)+(有息非流动负债)=(流动负债合计-应付账款-预收款项-应付职工薪酬-应交税费-其他应付款-一年内的递延收益-其它流动负债)+(长期借款+应付债券),,
-operating_revenue_growth_rate,营业收入增长率,营业收入增长率=（今年营业收入（TTM）/去年营业收入（TTM））-1,,
-total_asset_growth_rate,总资产增长率,总资产 / 总资产_4 -1,,
-net_operate_cashflow_growth_rate,经营活动产生的现金流量净额增长率,(今年经营活动产生的现金流量净额（TTM）/去年经营活动产生的现金流量净额（TTM）)-1,,
-total_profit_growth_rate,利润总额增长率,利润总额增长率=(今年利润总额（TTM）/去年利润总额（TTM）)-1,,
-np_parent_company_owners_growth_rate,归属母公司股东的净利润增长率,(今年归属于母公司所有者的净利润（TTM）/去年归属于母公司所有者的净利润（TTM）)-1,,
-financing_cash_growth_rate,筹资活动产生的现金流量净额增长率,过去12个月的筹资现金流量净额 / 4季度前的12个月的筹资现金流量净额 - 1,,
-net_profit_growth_rate,净利润增长率,净利润增长率=(今年净利润（TTM）/去年净利润（TTM）)-1,,
-net_asset_growth_rate,净资产增长率,（当季的股东权益/三季度前的股东权益）-1,,
-PEG,市盈率相对盈利增长比率,PEG = PE / (归母公司净利润(TTM)增长率 * 100) # 如果 PE 或 增长率为负，则为 nan,,
-total_operating_revenue_per_share_ttm,每股营业总收入TTM,营业总收入（TTM）除以总股本,,
-cash_and_equivalents_per_share,每股现金及现金等价物余额,每股现金及现金等价物余额,,
-surplus_reserve_fund_per_share,每股盈余公积金,每股盈余公积金,,
-retained_profit_per_share,每股未分配利润,每股未分配利润,,
-operating_revenue_per_share_ttm,每股营业收入TTM,营业收入（TTM）除以总股本,,
-net_asset_per_share,每股净资产,(归属母公司所有者权益合计-其他权益工具)除以总股本,,
-total_operating_revenue_per_share,每股营业总收入,每股营业总收入,,
-retained_earnings_per_share,每股留存收益,每股留存收益,,
-operating_revenue_per_share,每股营业收入,每股营业收入,,
-net_operate_cash_flow_per_share,每股经营活动产生的现金流量净额,每股经营活动产生的现金流量净额,,
-operating_profit_per_share_ttm,每股营业利润TTM,营业利润（TTM）除以总股本,,
-eps_ttm,每股收益TTM,过去12个月归属母公司所有者的净利润（TTM）除以总股本,,
-cashflow_per_share_ttm,每股现金流量净额，根据当时日期来获取最近变更日的总股本,现金流量净额（TTM）除以总股本,,
-operating_profit_per_share,每股营业利润,每股营业利润,,
-capital_reserve_fund_per_share,每股资本公积金,每股资本公积金,,
-VROC12,12日量变动速率指标,成交量减N日前的成交量，再除以N日前的成交量，放大100倍，得到VROC值 ，n=12,,
-TVMA6,6日成交金额的移动平均值,6日成交金额的移动平均值,,
-VEMA10,成交量的10日指数移动平均,,,
-VR,成交量比率（Volume Ratio）,VR=（AVS+1/2CVS）/（BVS+1/2CVS）,,
-VOL5,5日平均换手率,"5日换手率的均值,单位为%",,
-BR,意愿指标,BR=N日内（当日最高价－昨日收盘价）之和 / N日内（昨日收盘价－当日最低价）之和×100 n设定为26,,
-VEMA12,12日成交量的移动平均值,,,
-TVMA20,20日成交金额的移动平均值,20日成交金额的移动平均值,,
-DAVOL5,5日平均换手率与120日平均换手率,5日平均换手率 / 120日平均换手率,,
-VDIFF,计算VMACD因子的中间变量,EMA(VOLUME，SHORT)-EMA(VOLUME，LONG) short设置为12，long设置为26，M设置为9,,
-WVAD,威廉变异离散量,(收盘价－开盘价)/(最高价－最低价)×成交量，再做加和，使用过去6个交易日的数据,,
-MAWVAD,因子WVAD的6日均值,,,
-VSTD10,10日成交量标准差,10日成交量标准差,,
-ATR14,14日均幅指标,真实振幅的14日移动平均,,
-VOL10,10日平均换手率,"10日换手率的均值,单位为%",,
-DAVOL10,10日平均换手率与120日平均换手率之比,10日平均换手率 / 120日平均换手率,,
-VDEA,计算VMACD因子的中间变量,EMA(VDIFF，M) short设置为12，long设置为26，M设置为9,,
-VSTD20,20日成交量标准差,20日成交量标准差,,
-ATR6,6日均幅指标,真实振幅的6日移动平均,,
-VOL20,20日平均换手率,"20日换手率的均值,单位为%",,
-DAVOL20,20日平均换手率与120日平均换手率之比,20日平均换手率 / 120日平均换手率,,
-VMACD,成交量指数平滑异同移动平均线,"快的指数移动平均线（EMA12）减去慢的指数移动平均线（EMA26）得到快线DIFF, 由DIFF的M日移动平均得到DEA，由DIFF-DEA的值得到MACD",,
-AR,人气指标,AR=N日内（当日最高价—当日开市价）之和 / N日内（当日开市价—当日最低价）之和 * 100，n设定为26,,
-VOL60,60日平均换手率,"60日换手率的均值,单位为%",,
-turnover_volatility,换手率相对波动率,取20个交易日个股换手率的标准差,,
-VOL120,120日平均换手率,"120日换手率的均值,单位为%",,
-VROC6,6日量变动速率指标,成交量减N日前的成交量，再除以N日前的成交量，放大100倍，得到VROC值 ，n=6,,
-TVSTD20,20日成交金额的标准差,20日成交额的标准差,,
-ARBR,ARBR,因子 AR 与因子 BR 的差,,
-money_flow_20,20日资金流量,用收盘价、最高价及最低价的均值乘以当日成交量即可得到该交易日的资金流量,,
-VEMA5,成交量的5日指数移动平均,,,
-VOL240,240日平均换手率,"240日换手率的均值,单位为%",,
-VEMA26,成交量的26日指数移动平均,,,
-VOSC,成交量震荡,'VEMA12'和'VEMA26'两者的差值，再求差值与'VEMA12'的比，最后将比值放大100倍，得到VOSC值,,
-TVSTD6,6日成交金额的标准差,6日成交额的标准差,,
-PSY,心理线指标,12日内上涨的天数/n *100,,
-Variance20,20日年化收益方差,20日年化收益方差,,
-Skewness20,个股收益的20日偏度,个股收益的20日偏度,,
-Kurtosis20,个股收益的20日峰度,个股收益的20日峰度,,
-sharpe_ratio_20,20日夏普比率,（Rp - Rf）/Sigma p 其中，Rp是个股的年化收益率，Rf是无风险利率（在这里设置为0.04），Sigma p是个股的收益波动率（标准差）,,
-Variance60,60日年化收益方差,60日年化收益方差,,
-Skewness60,个股收益的60日偏度,个股收益的60日偏度,,
-Kurtosis60,个股收益的60日峰度,个股收益的60日峰度,,
-sharpe_ratio_60,60日夏普比率,（Rp - Rf）/Sigma p 其中，Rp是个股的年化收益率，Rf是无风险利率（在这里设置为0.04），Sigma p是个股的收益波动率（标准差）,,
-Variance120,120日年化收益方差,120日年化收益方差,,
-Skewness120,个股收益的120日偏度,个股收益的120日偏度,,
-Kurtosis120,个股收益的120日峰度,个股收益的120日峰度,,
-sharpe_ratio_120,120日夏普比率,（Rp - Rf）/Sigma p 其中，Rp是个股的年化收益率，Rf是无风险利率（在这里设置为0.04），Sigma p是个股的收益波动率（标准差）,,
-boll_down,下轨线（布林线）指标,"(MA(CLOSE,M)-2*STD(CLOSE,M)) / 今日收盘价; M=20",,
-boll_up,上轨线（布林线）指标,"(MA(CLOSE,M)+2*STD(CLOSE,M)) / 今日收盘价; M=20",,
-EMA5,5日指数移动均线,5日指数移动均线 / 今日收盘价,,
-EMAC10,10日指数移动均线,10日指数移动均线 / 今日收盘价,,
-EMAC12,12日指数移动均线,12日指数移动均线 / 今日收盘价,,
-EMAC20,20日指数移动均线,20日指数移动均线 / 今日收盘价,,
-EMAC26,26日指数移动均线,26日指数移动均线 / 今日收盘价,,
-EMAC120,120日指数移动均线,120日指数移动均线 / 今日收盘价,,
-MAC5,5日移动均线,5日移动均线 / 今日收盘价,,
-MAC10,10日移动均线,10日移动均线 / 今日收盘价,,
-MAC20,20日移动均线,20日移动均线 / 今日收盘价,,
-MAC60,60日移动均线,60日移动均线 / 今日收盘价,,
-MAC120,120日移动均线,120日移动均线 / 今日收盘价,,
-MACDC,平滑异同移动平均线,"MACD(SHORT=12, LONG=26, MID=9) / 今日收盘价",,
-MFI14,资金流量指标,①求得典型价格（当日最高价，最低价和收盘价的均值）,,
-,,②根据典型价格高低判定正负向资金流（资金流=典型价格*成交量）,,
-,,③计算MR= 正向/负向 ④MFI=100-100/（1+MR）,,
-price_no_fq,不复权价格,不复权价格,,
-arron_up_25,Aroon指标上轨,Aroon(上升)=[(计算期天数-最高价后的天数)/计算期天数]*100,,
-arron_down_25,Aroon指标下轨,Aroon(下降)=[(计算期天数-最低价后的天数)/计算期天数]*100,,
-BBIC,BBI 动量,"BBI(3, 6, 12, 24) / 收盘价 （BBI 为常用技术指标类因子“多空均线”）",,
-bear_power,空头力道,"(最低价-EMA(close,13)) / close",,
-BIAS5,5日乖离率,（收盘价-收盘价的N日简单平均）/ 收盘价的N日简单平均*100，在此n取5,,
-BIAS10,10日乖离率,（收盘价-收盘价的N日简单平均）/ 收盘价的N日简单平均*100，在此n取10,,
-BIAS20,20日乖离率,（收盘价-收盘价的N日简单平均）/ 收盘价的N日简单平均*100，在此n取20,,
-BIAS60,60日乖离率,（收盘价-收盘价的N日简单平均）/ 收盘价的N日简单平均*100，在此n取60,,
-bull_power,多头力道,"(最高价-EMA(close,13)) / close",,
-CCI10,10日顺势指标,"CCI:=(TYP-MA(TYP,N))/(0.015*AVEDEV(TYP,N)); TYP:=(HIGH+LOW+CLOSE)/3; N:=10",,
-CCI15,15日顺势指标,"CCI:=(TYP-MA(TYP,N))/(0.015*AVEDEV(TYP,N)); TYP:=(HIGH+LOW+CLOSE)/3; N:=15",,
-CCI20,20日顺势指标,"CCI:=(TYP-MA(TYP,N))/(0.015*AVEDEV(TYP,N)); TYP:=(HIGH+LOW+CLOSE)/3; N:=20",,
-CCI88,88日顺势指标,"CCI:=(TYP-MA(TYP,N))/(0.015*AVEDEV(TYP,N)); TYP:=(HIGH+LOW+CLOSE)/3; N:=88",,
-CR20,CR指标,①中间价=1日前的最高价+最低价/2,,
-,,②上升值=今天的最高价-前一日的中间价（负值记0）,,
-,,③下跌值=前一日的中间价-今天的最低价（负值记0）,,
-,,④多方强度=20天的上升值的和，空方强度=20天的下跌值的和,,
-,,⑤CR=（多方强度÷空方强度）×100,,
-fifty_two_week_close_rank,当前价格处于过去1年股价的位置,取过去的250个交易日各股的收盘价时间序列，每只股票按照从大到小排列，并找出当日所在的位置,,
-MASS,梅斯线,"MASS(N1=9, N2=25, M=6)",,
-PLRC12,12日收盘价格与日期线性回归系数,计算 12 日收盘价格，与日期序号（1-12）的线性回归系数，(close / mean(close)) = beta * t + alpha,,
-PLRC24,24日收盘价格与日期线性回归系数,计算 24 日收盘价格，与日期序号（1-24）的线性回归系数， (close / mean(close)) = beta * t + alpha,,
-PLRC6,6日收盘价格与日期线性回归系数,计算 6 日收盘价格，与日期序号（1-6）的线性回归系数，(close / mean(close)) = beta * t + alpha,,
-Price1M,当前股价除以过去一个月股价均值再减1,当日收盘价 / mean(过去一个月(21天)的收盘价) -1,,
-Price3M,当前股价除以过去三个月股价均值再减1,当日收盘价 / mean(过去三个月(61天)的收盘价) -1,,
-Price1Y,当前股价除以过去一年股价均值再减1,当日收盘价 / mean(过去一年(250天)的收盘价) -1,,
-Rank1M,1减去 过去一个月收益率排名与股票总数的比值,1-(Rank(个股20日收益) / 股票总数),,
-ROC12,12日变动速率（Price Rate of Change）,①AX=今天的收盘价—12天前的收盘价,,
-,,②BX=12天前的收盘价,,
-,,③ROC=AX/BX*100,,
-ROC120,120日变动速率（Price Rate of Change）,①AX=今天的收盘价—120天前的收盘价,,
-,,②BX=120天前的收盘价,,
-,,③ROC=AX/BX*100,,
-ROC20,20日变动速率（Price Rate of Change）,①AX=今天的收盘价—20天前的收盘价,,
-,,②BX=20天前的收盘价,,
-,,③ROC=AX/BX*100,,
-ROC6,6日变动速率（Price Rate of Change）,①AX=今天的收盘价—6天前的收盘价,,
-,,②BX=6天前的收盘价,,
-,,③ROC=AX/BX*100,,
-ROC60,60日变动速率（Price Rate of Change）,①AX=今天的收盘价—60天前的收盘价,,
-,,②BX=60天前的收盘价,,
-,,③ROC=AX/BX*100,,
-single_day_VPT,单日价量趋势,（今日收盘价 - 昨日收盘价）/ 昨日收盘价 * 当日成交量 # (复权方法为基于当日前复权),,
-single_day_VPT_12,单日价量趋势12均值,"MA(single_day_VPT, 12)",,
-single_day_VPT_6,单日价量趋势6日均值,"MA(single_day_VPT, 6)",,
-TRIX10,10日终极指标TRIX,MTR=收盘价的10日指数移动平均的10日指数移动平均的10日指数移动平均(求三次ema10);,,
-,,TRIX=(MTR-1日前的MTR)/1日前的MTR*100,,
-TRIX5,5日终极指标TRIX,MTR=收盘价的5日指数移动平均的5日指数移动平均的5日指数移动平均(求三次ema5);,,
-,,TRIX=(MTR-1日前的MTR)/1日前的MTR*100,,
-Volume1M,当前交易量相比过去1个月日均交易量 与过去过去20日日均收益率乘积,当日交易量 / 过去20日交易量MEAN * 过去20日收益率MEAN,,
-turnover_ratio,换手率(%),指在一定时间内市场中股票转手买卖的频率，是反映股票流通性强弱的指标之一。,换手率=[指定交易日成交量(手)×100/截至该日股票的流通股本(股)]×100%,
-pe_ratio,"市盈率(PE, TTM)",每股市价为每股收益的倍数，反映投资人对每元净利润所愿支付的价格，用来估计股票的投资报酬和风险,市盈率（PE，TTM）=（股票在指定交易日期的收盘价 * 截止当日公司总股本）/归属于母公司股东的净利润TTM。,
-pe_ratio_lyr,市盈率(PE),以上一年度每股盈利计算的静态市盈率. 股价/最近年度报告EPS,市盈率（PE）=（股票在指定交易日期的收盘价 * 截至当日公司总股本）/归属母公司股东的净利润。,
-pb_ratio,市净率(PB),每股股价与每股净资产的比率,市净率=（股票在指定交易日期的收盘价 * 截至当日公司总股本）/(归属母公司股东的权益MRQ-其他权益工具)。,
-ps_ratio,"市销率(PS, TTM)",市销率为股票价格与每股销售收入之比，市销率越小，通常被认为投资价值越高。,市销率TTM=（股票在指定交易日期的收盘价 * 截至当日公司总股本）/营业总收入TTM,
-pcf_ratio,"市现率(PCF, 现金净流量TTM)",每股市价为每股现金净流量的倍数,市现率=（股票在指定交易日期的收盘价 * 截至当日公司总股本）/现金及现金等价物净增加额TTM,
-eps,每股收益EPS(元),每股收益(摊薄)＝净利润/期末股本；分子从单季利润表取值，分母取季度末报告期股本值；净利润指归属于母公司股东的净利润(元),,
-adjusted_profit,扣除非经常损益后的净利润(元),非经常性损益这一概念是证监会在1999年首次提出的，当时将其定义为：公司正常经营损益之外的一次性或偶发性损益。《问答第1号》则指出：非经常性损益是公司发生的与经营业务无直接关系的收支；以及虽与经营业务相关，但由于其性质、金额或发生频率等方面的原因，影响了真实公允地反映公司正常盈利能力的各项收入。,,
-operating_profit,经营活动净收益(元),营业总收入-营业总成本,,
-value_change_profit,价值变动净收益(元),公允价值变动净收益+投资净收益+汇兑净收益,,
-roe,净资产收益率ROE(%),归属于母公司股东的净利润*2/（期初归属于母公司股东的净资产+期末归属于母公司股东的净资产）,,
-inc_return,净资产收益率(扣除非经常损益)(%),扣除非经常损益后的净利润（不含少数股东损益）*2/（期初归属于母公司股东的净资产+期末归属于母公司股东的净资产）,,
-roa,总资产净利率ROA(%),净利润*2/（期初总资产+期末总资产）,,
-net_profit_margin,销售净利率(%),净利润/营业收入,,
-gross_profit_margin,销售毛利率(%),毛利/营业收入,,
-expense_to_total_revenue,营业总成本/营业总收入(%),营业总成本/营业总收入(%),,
-operation_profit_to_total_revenue,营业利润/营业总收入(%),营业利润/营业总收入(%),,
-net_profit_to_total_revenue,净利润/营业总收入(%),净利润/营业总收入(%),,
-operating_expense_to_total_revenue,营业费用/营业总收入(%),营业费用/营业总收入(%),,
-ga_expense_to_total_revenue,管理费用/营业总收入(%),管理费用/营业总收入(%),,
-financing_expense_to_total_revenue,财务费用/营业总收入(%),财务费用/营业总收入(%),,
-operating_profit_to_profit,经营活动净收益/利润总额(%),经营活动净收益/利润总额(%),,
-invesment_profit_to_profit,价值变动净收益/利润总额(%),价值变动净收益/利润总额(%),,
-adjusted_profit_to_profit,扣除非经常损益后的净利润/净利润(%),扣除非经常损益后的净利润/净利润(%),,
-goods_sale_and_service_to_revenue,销售商品提供劳务收到的现金/营业收入(%),销售商品提供劳务收到的现金/营业收入(%),,
-ocf_to_revenue,经营活动产生的现金流量净额/营业收入(%),经营活动产生的现金流量净额/营业收入(%),,
-ocf_to_operating_profit,经营活动产生的现金流量净额/经营活动净收益(%),经营活动产生的现金流量净额/经营活动净收益(%),,
-inc_total_revenue_year_on_year,营业总收入同比增长率(%),营业总收入同比增长率是企业在一定期间内取得的营业总收入与其上年同期营业总收入的增长的百分比，以反映企业在此期间内营业总收入的增长或下降等情况。,,
-inc_total_revenue_annual,营业总收入环比增长率(%),营业收入是指企业在从事销售商品，提供劳务和让渡资产使用权等日常经营业务过程中所形成的经济利益的总流入。环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,
-inc_revenue_year_on_year,营业收入同比增长率(%),"营业收入,是指公司在从事销售商品、提供劳务和让渡资产使用权等日常经营业务过程中所形成的经济利益的总流入，而营业收入同比增长率，则是检验上市公司去年一年挣钱能力是否提高的标准，营业收入同比增长,说明公司在上一年度挣钱的能力加强了，营业收入同比下降，则说明公司的挣钱能力稍逊于往年。",,
-inc_revenue_annual,营业收入环比增长率(%),环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,
-inc_operation_profit_year_on_year,营业利润同比增长率(%),同比增长率就是指公司当年期的营业利润和上月同期、上年同期的营业利润比较。（当期的营业利润-上月（上年）当期的营业利润）/上月（上年）当期的营业利润绝对值=利润同比增长率。,,
-inc_operation_profit_annual,营业利润环比增长率(%),环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,
-inc_net_profit_year_on_year,净利润同比增长率(%),（当期的净利润-上月（上年）当期的净利润）/上月（上年）当期的净利润绝对值=净利润同比增长率。,,
-inc_net_profit_annual,净利润环比增长率(%),环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,
-inc_net_profit_to_shareholders_year_on_year,归属母公司股东的净利润同比增长率(%),归属于母公司股东净利润是指全部归属于母公司股东的净利润，包括母公司实现的净利润和下属子公司实现的净利润；同比增长率，一般是指和去年同期相比较的增长率。同比增长 和上一时期、上一年度或历史相比的增长（幅度）。,,
-inc_net_profit_to_shareholders_annual,归属母公司股东的净利润环比增长率(%),环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,
-total_loan,贷款总额(元),数值,,
-total_deposit,存款总额(元),数值,,
-interest_earning_assets,生息资产(元),数值,,
-non_interest_earning_assets,非生息资产(元),数值,,
-interest_earning_assets_yield,生息资产收益率(%),数值,,
-interest_bearing_liabilities,计息负债(元),数值,,
-non_interest_bearing_liabilities,非计息负债,数值,,
-interest_bearing_liabilities_interest_rate,计息负债成本率(%),数值,,
-non_interest_income,非利息收入(元),数值,,
-non_interest_income_ratio,非利息收入占比(%),数值,,
-net_interest_margin,净息差(%),数值,,
-net_profit_margin,净利差(%),数值,,
-core_level_capital,核心一级资本(2013)(元),数值,,
-net_core_level_capital,核心一级资本净额(2013)(元),数值,,
-core_level_capital_adequacy_ratio,核心一级资本充足率(2013)(%),数值,,
-net_level_1_capital,一级资本净额（2013）(元),数值,,
-level_1_capital_adequacy_ratio,一级资本充足率（2013）(%),数值,,
-net_capital,资本净额（2013）(元),数值,,
-capital_adequacy_ratio,资本充足率（2013）(%),数值,,
-weighted_risky_asset,风险加权资产合计（2013）(元),数值,,
-deposit_loan_ratio,存贷款比例(%),数值,,
-short_term_asset_liquidity_ratio_CNY,短期资产流动性比例（人民币）(%),数值,,
-short_term_asset_liquidity_ratio_FC,短期资产流动性比例（外币）(%),数值,,
-Nonperforming_loan_rate,不良贷款率(%),数值,,
-single_largest_customer_loan_ratio,单一最大客户贷款比例(%),数值,,
-top_ten_customer_loan_ratio,最大十家客户贷款比例(%),数值,,
-bad_debts_reserve,贷款呆账准备金(元),数值,,
-non_performing_loan_provision_coverage,不良贷款拨备覆盖率(%),数值,,
-cost_to_income_ratio,成本收入比(%),数值,,
-former_core_capital,核心资本,数值,,
-former_net_core_capital,核心资本净额（旧）(元),数值,,
-former_net_core_capital_adequacy_ratio,核心资本充足率,数值,,
-former_net_capital,资本净额,数值,,
-former_capital_adequacy_ratio,资本充足率,数值,,
-former_weighted_risky_asset,加权风险资产净额（旧）(元),数值,,
-normal_amount,正常-金额(元),数值,,
-normal_amount_ratio,正常金额占比(%),数值,,
-concerned_amount,关注-金额(元),数值,,
-concerned_amount_ratio,关注金额占比(%),数值,,
-secondary_amount,次级-金额(元),数值,,
-secondary_amount_ratio,次级金额占比(%),数值,,
-suspicious_amount,可疑-金额(元),数值,,
-suspicious_amount_ratio,可疑金额占比(%),数值,,
-loss_amount,损失-金额(元),数值,,
-loss_amount_ratio,损失金额占比(%),数值,,
-short_term_loan_average_balance,短期贷款-平均余额(元),数值,,
-short_term_loan_annualized_average_interest_rate,短期贷款-年平均利率(%),数值,,
-mid_term_loan_annualized_average_balance,中长期贷款-平均余额(元),数值,,
-mid_term_loan_annualized_average_interest_rate,中长期贷款-年平均利率(%),数值,,
-enterprise_deposits_average_balance,企业存款-平均余额(元),数值,,
-enterprise_deposits_average_interest_rate,企业存款-年平均利率(%),数值,,
-savings_deposit_average_balance,储蓄存款-平均余额(元),数值,,
-savings_deposit_average_interest_rate,储蓄存款-年平均利率(%),数值,,
-spot_sell,现汇卖出价,数字,,
-cash_offer_prc,现钞卖出价,数字,,
-safe_prc,外管局中间价,数字,,
-bank_reduced_prc,中行折算价,数字,,
-interest_rate_O/N,隔夜拆借利率,数字,,
-interest_rate_3m,3月拆借利率,数字,,
-interest_rate_1y,一年拆借利率,数字,,
-m2,货币和准货币(M2)供应量,数字,,货币=流通中货币+单位活期存款
-m1,货币(M1)供应量,数字,,
-m0,流通中现金(M0)供应量,数字,,
-m2_yoy,货币和准货币(M2)供应量同比增长率,数字,,
-m1_yoy,货币(M1)供应量同比增长率,数字,,
-m0_yoy,流通中现金(M0)供应量同比增长率,数字,,
-demond_deposit,货币供应量中活期存款供应量,数字,,准货币=单位定期存款+个人存款+其他存款
-quosi,准货币供应量,数字,,
-time_deposit,准货币供应量定期存款,数字,,
-saving_deposit,准货币供应量储蓄存款,数字,,
-other_deposit,准货币供应量其他存款,数字,,
-demond_deposit_yoy,货币供应量中活期存款供应量同比增长率,数字,,
-quosi_yoy,准货币供应量同比增长率,数字,,
-time_deposit_yoy,准货币供应量定期存款同比增长率,数字,,
-saving_deposit_yoy,准货币供应量储蓄存款同比增长率,数字,,
-other_deposit_yoy,准货币供应量其他存款同比增长率,数字,,
-foreign_assets,货币当局国外资产,数字,,存款指企业、机关、团体或居民根据资金必须收回的原则，把货币资金存入银行或其他信贷机构保管并取得一定利息的一种信用活动形式。根据存款对象或性质的不同可划分为单位存款、个人存款、财政性存款、临时性存款、委托存款、其他存款等科目。它是银行信贷资金的主要来源。
-foreign_exchange,货币当局外汇,数字,,
-money_gold,货币当局货币黄金,数字,,
-government_claim,货币当局对政府债权,数字,,
-bank_claim,货币当局对存款货币银行债权,数字,,
-other_finance_claim,货币当局对其他金融性公司债权,数字,,
-non_finance_claim,货币当局对非金融性公司债权,数字,,
-reserve_money,货币当局储蓄货币,数字,,
-currency_issue,货币当局储备货币发行,数字,,
-bank_deposit,货币当局存款货币银行存款,数字,,
-other_finance_deposit,货币当局其他金融性公司存款,数字,,
-non_reserve_finance_deposit,货币当局不计入储备货币的金融性公司存款,数字,,
-bond_issue,货币当局发行债券,数字,,
-government_deposit,货币当局政府存款,数字,,
-owned_capital,货币当局自有资金,数字,,
-rmb_loan,人民币贷款社会融资规模,数字,,社会融资规模指一定时期内实体经济从金融体系获得的资金总额，是增量概念。主要包括：人民币贷款、外币贷款（折合人民币）、委托贷款、信托贷款、未贴现的银行承兑汇票、企业债券、非金融企业境内股票融资、投资性房地产、保险公司赔偿等。
-foreign_loan,外币贷款(折合人民币)社会融资规模,数字,,
-entrust_loan,委托贷款社会融资规模,数字,,
-trust_loan,信托贷款社会融资规模,数字,,
-out_fulfilled_scale,未贴现银行承兑汇票社会融资规模,数字,,
-corporate_bond_scale,企业债券社会融资规模,数字,,
-non_finance_scale,非金融企业境内股票社会融资规模,数字,,
-total_trade_amount,股票成交金额,数字,,
-xshg_avg_pe,上海平均市盈率,数字,,
-xshe_avg_pe,深圳平均市盈率,数字,,
-xshg_avg_turnover,上海平均换手率,数字,,
-xshe_avg_turnover,深圳平均换手率,数字,,
-treasury_bond_issue,国债发行额,数字,,
-company_bond_issue,企业债券发行额,数字,,
-bond_amount,债券成交额,数字,,
-treasury_bond_spot_amount,国债现货成交金额,数字,,
-treasury_bond_repurchase_amount,国债回购成交金额,数字,,
-gold,黄金储备,数字,,
-foreign,外汇储备,数字,,
-change_pct,涨跌幅(%),,,
-net_pct_main,主力净占比(%),主力净占比 = 主力净额 / 成交额,,
-net_pct_xl,超大单净占比(%),超大单净占比 = 超大单净额 / 成交额,,
-net_pct_l,大单净占比(%),大单净占比 = 大单净额 / 成交额,,
-net_pct_m,中单净占比(%),中单净占比 = 中单净额 / 成交额,,
-net_pct_s,小单净占比(%),小单净占比 = 小单净额 / 成交额,,
-amount,成交额,,,
-date,date,交易日期,,
-exchange_code,varchar(12),交易市场。例如，XSHG-上海证券交易所；XSHE-深圳证券交易所。对应DataAPI.SysCodeGet.codeTypeID=10002。,,
-fin_value,"decimal(20,2)",融资余额（元）,,
-fin_buy_value,"decimal(20,2)",融资买入额（元）,,
-sec_volume,int,融券余量（股）,,
-sec_value,"decimal(20,2)",融券余量金额（元）,,
-sec_sell_volume,int,融券卖出量（股）,,
-fin_sec_value,"decimal(20,2)",融资融券余额（元）,,
-HY07101,0-1变量,银行是否属于全国性银行,,
-HY07102,0-1变量,银行是否属于区域性银行,,
-included_indexes_number,数值,企业出现在各种综合指数的总数,,
+﻿因子代码,因子名称,细节,补充性细节,因子种类
+size,市值,捕捉大盘股和小盘股之间的收益差异,,factors_data
+beta,贝塔,表征股票相对于市场的波动敏感度,,factors_data
+momentum,传统动量,描述了过去两年里相对强势的股票与弱势股票之间的差异,,factors_data
+residual_volatility,残差波动率,解释了剥离了市场风险后的波动率高低产生的收益率差异,,factors_data
+non_linear_size,非线性市值,描述了无法由规模因子解释的但与规模有关的收益差异，通常代表中盘股,,factors_data
+book_to_price_ratio,账面市值比,"描述了股票估值高低不同而产生的收益差异, 即价值因子",,factors_data
+liquidity,流动性,解释了由股票相对的交易活跃度不同而产生的收益率差异,,factors_data
+earnings_yield,盈利能力,描述了由盈利收益导致的收益差异,,factors_data
+growth,成长,描述了对销售或盈利增长预期不同而产生的收益差异,,factors_data
+leverage,杠杆,描述了高杠杆股票与低杠杆股票之间的收益差异,,factors_data
+net_profit_to_total_operate_revenue_ttm,净利润与营业总收入之比,净利润与营业总收入之比=净利润（TTM）/营业总收入（TTM）,,factors_data
+cfo_to_ev,经营活动产生的现金流量净额与企业价值之比TTM,经营活动产生的现金流量净额TTM / 企业价值。其中，企业价值=司市值+负债合计-货币资金,,factors_data
+accounts_payable_turnover_days,应付账款周转天数,应付账款周转天数 = 360 / 应付账款周转率,,factors_data
+net_profit_ratio,销售净利率,售净利率=净利润（TTM）/营业收入（TTM）,,factors_data
+net_non_operating_income_to_total_profit,营业外收支利润净额/利润总额,营业外收支利润净额/利润总额,,factors_data
+fixed_asset_ratio,固定资产比率,固定资产比率=(固定资产+工程物资+在建工程)/总资产,,factors_data
+account_receivable_turnover_days,应收账款周转天数,应收账款周转天数=360/应收账款周转率,,factors_data
+DEGM,毛利率增长,毛利率增长=(今年毛利率（TTM）/去年毛利率（TTM）)-1,,factors_data
+sale_expense_to_operating_revenue,营业费用与营业总收入之比,营业费用与营业总收入之比=销售费用（TTM）/营业总收入（TTM）,,factors_data
+operating_tax_to_operating_revenue_ratio_ttm,销售税金率,销售税金率=营业税金及附加（TTM）/营业收入（TTM）,,factors_data
+inventory_turnover_days,存货周转天数,存货周转天数=360/存货周转率,,factors_data
+OperatingCycle,营业周期,应收账款周转天数+存货周转天数,,factors_data
+net_operate_cash_flow_to_operate_income,经营活动产生的现金流量净额与经营活动净收益之比,经营活动产生的现金流量净额（TTM）/(营业总收入（TTM）-营业总成本（TTM））,,factors_data
+net_operating_cash_flow_coverage,净利润现金含量,经营活动产生的现金流量净额/归属于母公司所有者的净利润,,factors_data
+quick_ratio,速动比率,速动比率=(流动资产合计-存货)/ 流动负债合计,,factors_data
+intangible_asset_ratio,无形资产比率,无形资产比率=(无形资产+研发支出+商誉)/总资产,,factors_data
+MLEV,市场杠杆,市场杠杆=非流动负债合计/(非流动负债合计+总市值),,factors_data
+debt_to_equity_ratio,产权比率,产权比率=负债合计/归属母公司所有者权益合计,,factors_data
+super_quick_ratio,超速动比率,（货币资金+交易性金融资产+应收票据+应收帐款+其他应收款）／流动负债合计,,factors_data
+inventory_turnover_rate,存货周转率,存货周转率=营业成本（TTM）/存货,,factors_data
+operating_profit_growth_rate,营业利润增长率,营业利润增长率=(今年营业利润（TTM）/去年营业利润（TTM）)-1,,factors_data
+long_debt_to_working_capital_ratio,长期负债与营运资金比率,长期负债与营运资金比率=非流动负债合计/(流动资产合计-流动负债合计),,factors_data
+current_ratio,流动比率(单季度),流动比率=流动资产合计/流动负债合计,,factors_data
+net_operate_cash_flow_to_net_debt,经营活动产生现金流量净额/净债务,经营活动产生现金流量净额/净债务,,factors_data
+net_operate_cash_flow_to_asset,总资产现金回收率,经营活动产生的现金流量净额(ttm) / 总资产,,factors_data
+non_current_asset_ratio,非流动资产比率,非流动资产比率=非流动资产合计/总资产,,factors_data
+total_asset_turnover_rate,总资产周转率,总资产周转率=营业收入(ttm)/总资产,,factors_data
+long_debt_to_asset_ratio,长期借款与资产总计之比,长期借款与资产总计之比=长期借款/总资产,,factors_data
+debt_to_tangible_equity_ratio,有形净值债务率,负债合计/有形净值 其中有形净值=股东权益-无形资产净值，无形资产净值= 商誉+无形资产,,factors_data
+ROAEBITTTM,总资产报酬率,（利润总额（TTM）+利息支出（TTM）） / 总资产在过去12个月的平均,,factors_data
+operating_profit_ratio,营业利润率,营业利润率=营业利润（TTM）/营业收入（TTM）,,factors_data
+long_term_debt_to_asset_ratio,长期负债与资产总计之比,长期负债与资产总计之比=非流动负债合计/总资产,,factors_data
+current_asset_turnover_rate,流动资产周转率TTM,过去12个月的营业收入/过去12个月的平均流动资产合计,,factors_data
+financial_expense_rate,财务费用与营业总收入之比,财务费用（TTM） / 营业总收入（TTM）,,factors_data
+operating_profit_to_total_profit,经营活动净收益/利润总额,经营活动净收益/利润总额,,factors_data
+debt_to_asset_ratio,债务总资产比,债务总资产比=负债合计/总资产,,factors_data
+equity_to_fixed_asset_ratio,股东权益与固定资产比率,股东权益与固定资产比率=股东权益/(固定资产+工程物资+在建工程),,factors_data
+net_operate_cash_flow_to_total_liability,经营活动产生的现金流量净额/负债合计,经营活动产生的现金流量净额/负债合计,,factors_data
+cash_rate_of_sales,经营活动产生的现金流量净额与营业收入之比,经营活动产生的现金流量净额（TTM） / 营业收入（TTM）,,factors_data
+operating_profit_to_operating_revenue,营业利润与营业总收入之比,营业利润与营业总收入之比=营业利润（TTM）/营业总收入（TTM）,,factors_data
+roa_ttm,资产回报率TTM,资产回报率=净利润（TTM）/期末总资产,,factors_data
+admin_expense_rate,管理费用与营业总收入之比,管理费用与营业总收入之比=管理费用（TTM）/营业总收入（TTM）,,factors_data
+fixed_assets_turnover_rate,固定资产周转率,等于过去12个月的营业收入/过去12个月的平均（固定资产+工程物资+在建工程）,,factors_data
+invest_income_associates_to_total_profit,对联营和合营公司投资收益/利润总额,对联营和营公司投资收益/利润总额,,factors_data
+equity_to_asset_ratio,股东权益比率,股东权益比率=股东权益/总资产,,factors_data
+goods_service_cash_to_operating_revenue_ttm,销售商品提供劳务收到的现金与营业收入之比,销售商品提供劳务收到的现金与营业收入之比=销售商品和提供劳务收到的现金（TTM）/营业收入（TTM）,,factors_data
+cash_to_current_liability,现金比率,期末现金及现金等价物余额/流动负债合计的12个月均值,,factors_data
+net_operate_cash_flow_to_total_current_liability,现金流动负债比,现金流动负债比=经营活动产生的现金流量净额（TTM）/流动负债合计,,factors_data
+ACCA,现金流资产比和资产回报率之差,"现金流资产比-资产回报率,其中现金流资产比=经营活动产生的现金流量净额/总资产",,factors_data
+roe_ttm,权益回报率TTM,权益回报率=净利润（TTM）/期末股东权益,,factors_data
+accounts_payable_turnover_rate,应付账款周转率,"TTM(营业成本,0)/（AvgQ(应付账款,4,0) + AvgQ(应付票据,4,0) + AvgQ(预付款项,4,0) ）",,factors_data
+gross_income_ratio,销售毛利率,销售毛利率=(营业收入（TTM）-营业成本（TTM）)/营业收入（TTM）,,factors_data
+adjusted_profit_to_total_profit,扣除非经常损益后的净利润/利润总额,扣除非经常损益后的净利润/利润总额,,factors_data
+account_receivable_turnover_rate,应收账款周转率,即，TTM(营业收入)/（TTM(应收账款) + TTM(应收票据) + TTM(预收账款) ）,,factors_data
+equity_turnover_rate,股东权益周转率,股东权益周转率=营业收入(ttm)/股东权益,,factors_data
+total_profit_to_cost_ratio,成本费用利润率,成本费用利润率=利润总额/(营业成本+财务费用+销售费用+管理费用)，以上科目使用的都是TTM的数值,,factors_data
+operating_cost_to_operating_revenue_ratio,销售成本率,销售成本率=营业成本（TTM）/营业收入（TTM）,,factors_data
+LVGI,财务杠杆指数,本期(年报)资产负债率/上期(年报)资产负债率,,factors_data
+SGI,营业收入指数,本期(年报)营业收入/上期(年报)营业收入,,factors_data
+GMI,毛利率指数,上期(年报)毛利率/本期(年报)毛利率,,factors_data
+DSRI,应收账款指数,本期(年报)应收账款占营业收入比例/上期(年报)应收账款占营业收入比例,,factors_data
+rnoa_ttm,经营资产回报率TTM,销售利润率*经营资产周转率,,factors_data
+profit_margin_ttm,销售利润率TTM,营业利润/营业收入,,factors_data
+roe_ttm_8y,长期权益回报率TTM,8年(1+roe_ttm)的累乘 ^ (1/8) - 1 # 至少要有近4年的数据，否则为 nan,,factors_data
+asset_turnover_ttm,经营资产周转率TTM,营业收入TTM/近4个季度期末净经营性资产均值; 净经营性资产=经营资产-经营负债,,factors_data
+roic_ttm,投资资本回报率TTM,权益回报率=归属于母公司股东的净利润（TTM）/ 前四个季度投资资本均值; 投资资本=股东权益+负债合计-无息流动负债-无息非流动负债; 无息流动负债=应付账款+预收款项+应付职工薪酬+应交税费+其他应付款+一年内的递延收益+其它流动负债; 无息非流动负债=非流动负债合计-长期借款-应付债券；,,factors_data
+roa_ttm_8y,长期资产回报率TTM,8年(1+roa_ttm)的乘积 ^ (1/8) - 1 # 至少要有近4年的数据，否则为 nan,,factors_data
+SGAI,销售管理费用指数,本期(年报)销售管理费用占营业收入的比例/上期(年报)销售管理费用占营业收入的比例,,factors_data
+DEGM_8y,长期毛利率增长,过去8年(1+DEGM)的累成 ^ (1/8) - 1,,factors_data
+maximum_margin,最大盈利水平,"max(margin_stability, DEGM_8y)",,factors_data
+margin_stability,盈利能力稳定性,mean(GM)/std(GM); GM 为过去8年毛利率ttm,,factors_data
+net_working_capital,净运营资本,流动资产 － 流动负债,,factors_data
+total_operating_revenue_ttm,营业总收入TTM,计算过去12个月的 营业总收入 之和,,factors_data
+operating_profit_ttm,营业利润TTM,计算过去12个月 营业利润 之和,,factors_data
+net_operate_cash_flow_ttm,经营活动现金流量净额TTM,计算过去12个月 经营活动产生的现金流量净值 之和,,factors_data
+operating_revenue_ttm,营业收入TTM,计算过去12个月的 营业收入 之和,,factors_data
+interest_carry_current_liability,带息流动负债,流动负债合计 - 无息流动负债,,factors_data
+sale_expense_ttm,销售费用TTM,计算过去12个月 销售费用 之和,,factors_data
+gross_profit_ttm,毛利TTM,过去12个月的 毛利润 之和,,factors_data
+retained_earnings,留存收益,盈余公积金+未分配利润,,factors_data
+total_operating_cost_ttm,营业总成本TTM,计算过去12个月的 营业总成本 之和,,factors_data
+non_operating_net_profit_ttm,营业外收支净额TTM,营业外收入（TTM） - 营业外支出（TTM）,,factors_data
+net_invest_cash_flow_ttm,投资活动现金流量净额TTM,计算过去12个月 投资活动现金流量净额 之和,,factors_data
+financial_expense_ttm,财务费用TTM,计算过去12个月 财务费用 之和,,factors_data
+administration_expense_ttm,管理费用TTM,计算过去12个月 管理费用 之和,,factors_data
+net_interest_expense,净利息费用,利息支出-利息收入,,factors_data
+value_change_profit_ttm,价值变动净收益TTM,计算过去12个月 价值变动净收益 之和,,factors_data
+total_profit_ttm,利润总额TTM,计算过去12个月 利润总额 之和,,factors_data
+net_finance_cash_flow_ttm,筹资活动现金流量净额TTM,计算过去12个月 筹资活动现金流量净额 之和,,factors_data
+interest_free_current_liability,无息流动负债,应付票据+应付账款+预收账款(用 预售款项 代替)+应交税费+应付利息+其他应付款+其他流动负债,,factors_data
+EBIT,息税前利润,净利润+所得税+财务费用,,factors_data
+net_profit_ttm,净利润TTM,计算过去12个月 净利润 之和,,factors_data
+OperateNetIncome,经营活动净收益,经营活动净收益/利润总额(%) * 利润总额,,factors_data
+EBITDA,息税折旧摊销前利润（报告期）,一般企业：（营业总收入-营业税金及附加）-（营业成本+利息支出+手续费及佣金支出+销售费用+管理费用+研发费用+资产减值损失）+（固定资产折旧、油气资产折耗、生产性生物资产折旧）+无形资产摊销+长期待摊费用摊销;,,factors_data
+,,银行业：（营业总收入-营业税金及附加）-（营业成本+管理费用+资产减值损失）+（固定资产折旧、油气资产折耗、生产性生物资产折旧+无形资产摊销+长期待摊费用摊销）,,factors_data
+asset_impairment_loss_ttm,资产减值损失TTM,计算过去12个月 资产减值损失 之和,,factors_data
+np_parent_company_owners_ttm,归属于母公司股东的净利润TTM,计算过去12个月 归属于母公司股东的净利润 之和,,factors_data
+operating_cost_ttm,营业成本TTM,计算过去12个月的 营业成本 之和,,factors_data
+net_debt,净债务,总债务-期末现金及现金等价物余额,,factors_data
+non_recurring_gain_loss,非经常性损益,归属于母公司股东的净利润-扣除非经常损益后的净利润(元),,factors_data
+goods_sale_and_service_render_cash_ttm,销售商品提供劳务收到的现金,计算过去12个月 销售商品提供劳务收到的现金 之和,,factors_data
+market_cap,市值,市值,,factors_data
+cash_flow_to_price_ratio,现金流市值比,1 / pcf_ratio (ttm),,factors_data
+sales_to_price_ratio,营收市值比,1 / ps_ratio (ttm),,factors_data
+circulating_market_cap,流通市值,流通市值,,factors_data
+operating_assets,经营性资产,总资产 - 金融资产,,factors_data
+financial_assets,金融资产,货币资金 + 交易性金融资产 + 应收票据 + 应收利息 + 应收股利 + 可供出售金融资产 + 持有至到期投资,,factors_data
+operating_liability,经营性负债,总负债 - 金融负债,,factors_data
+financial_liability,金融负债,(流动负债合计-无息流动负债)+(有息非流动负债)=(流动负债合计-应付账款-预收款项-应付职工薪酬-应交税费-其他应付款-一年内的递延收益-其它流动负债)+(长期借款+应付债券),,factors_data
+operating_revenue_growth_rate,营业收入增长率,营业收入增长率=（今年营业收入（TTM）/去年营业收入（TTM））-1,,factors_data
+total_asset_growth_rate,总资产增长率,总资产 / 总资产_4 -1,,factors_data
+net_operate_cashflow_growth_rate,经营活动产生的现金流量净额增长率,(今年经营活动产生的现金流量净额（TTM）/去年经营活动产生的现金流量净额（TTM）)-1,,factors_data
+total_profit_growth_rate,利润总额增长率,利润总额增长率=(今年利润总额（TTM）/去年利润总额（TTM）)-1,,factors_data
+np_parent_company_owners_growth_rate,归属母公司股东的净利润增长率,(今年归属于母公司所有者的净利润（TTM）/去年归属于母公司所有者的净利润（TTM）)-1,,factors_data
+financing_cash_growth_rate,筹资活动产生的现金流量净额增长率,过去12个月的筹资现金流量净额 / 4季度前的12个月的筹资现金流量净额 - 1,,factors_data
+net_profit_growth_rate,净利润增长率,净利润增长率=(今年净利润（TTM）/去年净利润（TTM）)-1,,factors_data
+net_asset_growth_rate,净资产增长率,（当季的股东权益/三季度前的股东权益）-1,,factors_data
+PEG,市盈率相对盈利增长比率,PEG = PE / (归母公司净利润(TTM)增长率 * 100) # 如果 PE 或 增长率为负，则为 nan,,factors_data
+total_operating_revenue_per_share_ttm,每股营业总收入TTM,营业总收入（TTM）除以总股本,,factors_data
+cash_and_equivalents_per_share,每股现金及现金等价物余额,每股现金及现金等价物余额,,factors_data
+surplus_reserve_fund_per_share,每股盈余公积金,每股盈余公积金,,factors_data
+retained_profit_per_share,每股未分配利润,每股未分配利润,,factors_data
+operating_revenue_per_share_ttm,每股营业收入TTM,营业收入（TTM）除以总股本,,factors_data
+net_asset_per_share,每股净资产,(归属母公司所有者权益合计-其他权益工具)除以总股本,,factors_data
+total_operating_revenue_per_share,每股营业总收入,每股营业总收入,,factors_data
+retained_earnings_per_share,每股留存收益,每股留存收益,,factors_data
+operating_revenue_per_share,每股营业收入,每股营业收入,,factors_data
+net_operate_cash_flow_per_share,每股经营活动产生的现金流量净额,每股经营活动产生的现金流量净额,,factors_data
+operating_profit_per_share_ttm,每股营业利润TTM,营业利润（TTM）除以总股本,,factors_data
+eps_ttm,每股收益TTM,过去12个月归属母公司所有者的净利润（TTM）除以总股本,,factors_data
+cashflow_per_share_ttm,每股现金流量净额，根据当时日期来获取最近变更日的总股本,现金流量净额（TTM）除以总股本,,factors_data
+operating_profit_per_share,每股营业利润,每股营业利润,,factors_data
+capital_reserve_fund_per_share,每股资本公积金,每股资本公积金,,factors_data
+VROC12,12日量变动速率指标,成交量减N日前的成交量，再除以N日前的成交量，放大100倍，得到VROC值 ，n=12,,factors_data
+TVMA6,6日成交金额的移动平均值,6日成交金额的移动平均值,,factors_data
+VEMA10,成交量的10日指数移动平均,,,factors_data
+VR,成交量比率（Volume Ratio）,VR=（AVS+1/2CVS）/（BVS+1/2CVS）,,factors_data
+VOL5,5日平均换手率,"5日换手率的均值,单位为%",,factors_data
+BR,意愿指标,BR=N日内（当日最高价－昨日收盘价）之和 / N日内（昨日收盘价－当日最低价）之和×100 n设定为26,,factors_data
+VEMA12,12日成交量的移动平均值,,,factors_data
+TVMA20,20日成交金额的移动平均值,20日成交金额的移动平均值,,factors_data
+DAVOL5,5日平均换手率与120日平均换手率,5日平均换手率 / 120日平均换手率,,factors_data
+VDIFF,计算VMACD因子的中间变量,EMA(VOLUME，SHORT)-EMA(VOLUME，LONG) short设置为12，long设置为26，M设置为9,,factors_data
+WVAD,威廉变异离散量,(收盘价－开盘价)/(最高价－最低价)×成交量，再做加和，使用过去6个交易日的数据,,factors_data
+MAWVAD,因子WVAD的6日均值,,,factors_data
+VSTD10,10日成交量标准差,10日成交量标准差,,factors_data
+ATR14,14日均幅指标,真实振幅的14日移动平均,,factors_data
+VOL10,10日平均换手率,"10日换手率的均值,单位为%",,factors_data
+DAVOL10,10日平均换手率与120日平均换手率之比,10日平均换手率 / 120日平均换手率,,factors_data
+VDEA,计算VMACD因子的中间变量,EMA(VDIFF，M) short设置为12，long设置为26，M设置为9,,factors_data
+VSTD20,20日成交量标准差,20日成交量标准差,,factors_data
+ATR6,6日均幅指标,真实振幅的6日移动平均,,factors_data
+VOL20,20日平均换手率,"20日换手率的均值,单位为%",,factors_data
+DAVOL20,20日平均换手率与120日平均换手率之比,20日平均换手率 / 120日平均换手率,,factors_data
+VMACD,成交量指数平滑异同移动平均线,"快的指数移动平均线（EMA12）减去慢的指数移动平均线（EMA26）得到快线DIFF, 由DIFF的M日移动平均得到DEA，由DIFF-DEA的值得到MACD",,factors_data
+AR,人气指标,AR=N日内（当日最高价—当日开市价）之和 / N日内（当日开市价—当日最低价）之和 * 100，n设定为26,,factors_data
+VOL60,60日平均换手率,"60日换手率的均值,单位为%",,factors_data
+turnover_volatility,换手率相对波动率,取20个交易日个股换手率的标准差,,factors_data
+VOL120,120日平均换手率,"120日换手率的均值,单位为%",,factors_data
+VROC6,6日量变动速率指标,成交量减N日前的成交量，再除以N日前的成交量，放大100倍，得到VROC值 ，n=6,,factors_data
+TVSTD20,20日成交金额的标准差,20日成交额的标准差,,factors_data
+ARBR,ARBR,因子 AR 与因子 BR 的差,,factors_data
+money_flow_20,20日资金流量,用收盘价、最高价及最低价的均值乘以当日成交量即可得到该交易日的资金流量,,factors_data
+VEMA5,成交量的5日指数移动平均,,,factors_data
+VOL240,240日平均换手率,"240日换手率的均值,单位为%",,factors_data
+VEMA26,成交量的26日指数移动平均,,,factors_data
+VOSC,成交量震荡,'VEMA12'和'VEMA26'两者的差值，再求差值与'VEMA12'的比，最后将比值放大100倍，得到VOSC值,,factors_data
+TVSTD6,6日成交金额的标准差,6日成交额的标准差,,factors_data
+PSY,心理线指标,12日内上涨的天数/n *100,,factors_data
+Variance20,20日年化收益方差,20日年化收益方差,,factors_data
+Skewness20,个股收益的20日偏度,个股收益的20日偏度,,factors_data
+Kurtosis20,个股收益的20日峰度,个股收益的20日峰度,,factors_data
+sharpe_ratio_20,20日夏普比率,（Rp - Rf）/Sigma p 其中，Rp是个股的年化收益率，Rf是无风险利率（在这里设置为0.04），Sigma p是个股的收益波动率（标准差）,,factors_data
+Variance60,60日年化收益方差,60日年化收益方差,,factors_data
+Skewness60,个股收益的60日偏度,个股收益的60日偏度,,factors_data
+Kurtosis60,个股收益的60日峰度,个股收益的60日峰度,,factors_data
+sharpe_ratio_60,60日夏普比率,（Rp - Rf）/Sigma p 其中，Rp是个股的年化收益率，Rf是无风险利率（在这里设置为0.04），Sigma p是个股的收益波动率（标准差）,,factors_data
+Variance120,120日年化收益方差,120日年化收益方差,,factors_data
+Skewness120,个股收益的120日偏度,个股收益的120日偏度,,factors_data
+Kurtosis120,个股收益的120日峰度,个股收益的120日峰度,,factors_data
+sharpe_ratio_120,120日夏普比率,（Rp - Rf）/Sigma p 其中，Rp是个股的年化收益率，Rf是无风险利率（在这里设置为0.04），Sigma p是个股的收益波动率（标准差）,,factors_data
+boll_down,下轨线（布林线）指标,"(MA(CLOSE,M)-2*STD(CLOSE,M)) / 今日收盘价; M=20",,factors_data
+boll_up,上轨线（布林线）指标,"(MA(CLOSE,M)+2*STD(CLOSE,M)) / 今日收盘价; M=20",,factors_data
+EMA5,5日指数移动均线,5日指数移动均线 / 今日收盘价,,factors_data
+EMAC10,10日指数移动均线,10日指数移动均线 / 今日收盘价,,factors_data
+EMAC12,12日指数移动均线,12日指数移动均线 / 今日收盘价,,factors_data
+EMAC20,20日指数移动均线,20日指数移动均线 / 今日收盘价,,factors_data
+EMAC26,26日指数移动均线,26日指数移动均线 / 今日收盘价,,factors_data
+EMAC120,120日指数移动均线,120日指数移动均线 / 今日收盘价,,factors_data
+MAC5,5日移动均线,5日移动均线 / 今日收盘价,,factors_data
+MAC10,10日移动均线,10日移动均线 / 今日收盘价,,factors_data
+MAC20,20日移动均线,20日移动均线 / 今日收盘价,,factors_data
+MAC60,60日移动均线,60日移动均线 / 今日收盘价,,factors_data
+MAC120,120日移动均线,120日移动均线 / 今日收盘价,,factors_data
+MACDC,平滑异同移动平均线,"MACD(SHORT=12, LONG=26, MID=9) / 今日收盘价",,factors_data
+MFI14,资金流量指标,①求得典型价格（当日最高价，最低价和收盘价的均值）,,factors_data
+,,②根据典型价格高低判定正负向资金流（资金流=典型价格*成交量）,,factors_data
+,,③计算MR= 正向/负向 ④MFI=100-100/（1+MR）,,factors_data
+price_no_fq,不复权价格,不复权价格,,factors_data
+arron_up_25,Aroon指标上轨,Aroon(上升)=[(计算期天数-最高价后的天数)/计算期天数]*100,,factors_data
+arron_down_25,Aroon指标下轨,Aroon(下降)=[(计算期天数-最低价后的天数)/计算期天数]*100,,factors_data
+BBIC,BBI 动量,"BBI(3, 6, 12, 24) / 收盘价 （BBI 为常用技术指标类因子“多空均线”）",,factors_data
+bear_power,空头力道,"(最低价-EMA(close,13)) / close",,factors_data
+BIAS5,5日乖离率,（收盘价-收盘价的N日简单平均）/ 收盘价的N日简单平均*100，在此n取5,,factors_data
+BIAS10,10日乖离率,（收盘价-收盘价的N日简单平均）/ 收盘价的N日简单平均*100，在此n取10,,factors_data
+BIAS20,20日乖离率,（收盘价-收盘价的N日简单平均）/ 收盘价的N日简单平均*100，在此n取20,,factors_data
+BIAS60,60日乖离率,（收盘价-收盘价的N日简单平均）/ 收盘价的N日简单平均*100，在此n取60,,factors_data
+bull_power,多头力道,"(最高价-EMA(close,13)) / close",,factors_data
+CCI10,10日顺势指标,"CCI:=(TYP-MA(TYP,N))/(0.015*AVEDEV(TYP,N)); TYP:=(HIGH+LOW+CLOSE)/3; N:=10",,factors_data
+CCI15,15日顺势指标,"CCI:=(TYP-MA(TYP,N))/(0.015*AVEDEV(TYP,N)); TYP:=(HIGH+LOW+CLOSE)/3; N:=15",,factors_data
+CCI20,20日顺势指标,"CCI:=(TYP-MA(TYP,N))/(0.015*AVEDEV(TYP,N)); TYP:=(HIGH+LOW+CLOSE)/3; N:=20",,factors_data
+CCI88,88日顺势指标,"CCI:=(TYP-MA(TYP,N))/(0.015*AVEDEV(TYP,N)); TYP:=(HIGH+LOW+CLOSE)/3; N:=88",,factors_data
+CR20,CR指标,①中间价=1日前的最高价+最低价/2,,factors_data
+,,②上升值=今天的最高价-前一日的中间价（负值记0）,,factors_data
+,,③下跌值=前一日的中间价-今天的最低价（负值记0）,,factors_data
+,,④多方强度=20天的上升值的和，空方强度=20天的下跌值的和,,factors_data
+,,⑤CR=（多方强度÷空方强度）×100,,factors_data
+fifty_two_week_close_rank,当前价格处于过去1年股价的位置,取过去的250个交易日各股的收盘价时间序列，每只股票按照从大到小排列，并找出当日所在的位置,,factors_data
+MASS,梅斯线,"MASS(N1=9, N2=25, M=6)",,factors_data
+PLRC12,12日收盘价格与日期线性回归系数,计算 12 日收盘价格，与日期序号（1-12）的线性回归系数，(close / mean(close)) = beta * t + alpha,,factors_data
+PLRC24,24日收盘价格与日期线性回归系数,计算 24 日收盘价格，与日期序号（1-24）的线性回归系数， (close / mean(close)) = beta * t + alpha,,factors_data
+PLRC6,6日收盘价格与日期线性回归系数,计算 6 日收盘价格，与日期序号（1-6）的线性回归系数，(close / mean(close)) = beta * t + alpha,,factors_data
+Price1M,当前股价除以过去一个月股价均值再减1,当日收盘价 / mean(过去一个月(21天)的收盘价) -1,,factors_data
+Price3M,当前股价除以过去三个月股价均值再减1,当日收盘价 / mean(过去三个月(61天)的收盘价) -1,,factors_data
+Price1Y,当前股价除以过去一年股价均值再减1,当日收盘价 / mean(过去一年(250天)的收盘价) -1,,factors_data
+Rank1M,1减去 过去一个月收益率排名与股票总数的比值,1-(Rank(个股20日收益) / 股票总数),,factors_data
+ROC12,12日变动速率（Price Rate of Change）,①AX=今天的收盘价—12天前的收盘价,,factors_data
+,,②BX=12天前的收盘价,,factors_data
+,,③ROC=AX/BX*100,,factors_data
+ROC120,120日变动速率（Price Rate of Change）,①AX=今天的收盘价—120天前的收盘价,,factors_data
+,,②BX=120天前的收盘价,,factors_data
+,,③ROC=AX/BX*100,,factors_data
+ROC20,20日变动速率（Price Rate of Change）,①AX=今天的收盘价—20天前的收盘价,,factors_data
+,,②BX=20天前的收盘价,,factors_data
+,,③ROC=AX/BX*100,,factors_data
+ROC6,6日变动速率（Price Rate of Change）,①AX=今天的收盘价—6天前的收盘价,,factors_data
+,,②BX=6天前的收盘价,,factors_data
+,,③ROC=AX/BX*100,,factors_data
+ROC60,60日变动速率（Price Rate of Change）,①AX=今天的收盘价—60天前的收盘价,,factors_data
+,,②BX=60天前的收盘价,,factors_data
+,,③ROC=AX/BX*100,,factors_data
+single_day_VPT,单日价量趋势,（今日收盘价 - 昨日收盘价）/ 昨日收盘价 * 当日成交量 # (复权方法为基于当日前复权),,factors_data
+single_day_VPT_12,单日价量趋势12均值,"MA(single_day_VPT, 12)",,factors_data
+single_day_VPT_6,单日价量趋势6日均值,"MA(single_day_VPT, 6)",,factors_data
+TRIX10,10日终极指标TRIX,MTR=收盘价的10日指数移动平均的10日指数移动平均的10日指数移动平均(求三次ema10);,,factors_data
+,,TRIX=(MTR-1日前的MTR)/1日前的MTR*100,,factors_data
+TRIX5,5日终极指标TRIX,MTR=收盘价的5日指数移动平均的5日指数移动平均的5日指数移动平均(求三次ema5);,,factors_data
+,,TRIX=(MTR-1日前的MTR)/1日前的MTR*100,,factors_data
+Volume1M,当前交易量相比过去1个月日均交易量 与过去过去20日日均收益率乘积,当日交易量 / 过去20日交易量MEAN * 过去20日收益率MEAN,,factors_data
+turnover_ratio,换手率(%),指在一定时间内市场中股票转手买卖的频率，是反映股票流通性强弱的指标之一。,,factors_data
+pe_ratio,"市盈率(PE, TTM)",每股市价为每股收益的倍数，反映投资人对每元净利润所愿支付的价格，用来估计股票的投资报酬和风险,,factors_data
+pe_ratio_lyr,市盈率(PE),以上一年度每股盈利计算的静态市盈率. 股价/最近年度报告EPS,换手率=[指定交易日成交量(手)×100/截至该日股票的流通股本(股)]×100%,factors_data
+pb_ratio,市净率(PB),每股股价与每股净资产的比率,市盈率（PE，TTM）=（股票在指定交易日期的收盘价 * 截止当日公司总股本）/归属于母公司股东的净利润TTM。,factors_data
+ps_ratio,"市销率(PS, TTM)",市销率为股票价格与每股销售收入之比，市销率越小，通常被认为投资价值越高。,市盈率（PE）=（股票在指定交易日期的收盘价 * 截至当日公司总股本）/归属母公司股东的净利润。,factors_data
+pcf_ratio,"市现率(PCF, 现金净流量TTM)",每股市价为每股现金净流量的倍数,市净率=（股票在指定交易日期的收盘价 * 截至当日公司总股本）/(归属母公司股东的权益MRQ-其他权益工具)。,factors_data
+eps,每股收益EPS(元),每股收益(摊薄)＝净利润/期末股本；分子从单季利润表取值，分母取季度末报告期股本值；净利润指归属于母公司股东的净利润(元),市销率TTM=（股票在指定交易日期的收盘价 * 截至当日公司总股本）/营业总收入TTM,factors_data
+adjusted_profit,扣除非经常损益后的净利润(元),非经常性损益这一概念是证监会在1999年首次提出的，当时将其定义为：公司正常经营损益之外的一次性或偶发性损益。《问答第1号》则指出：非经常性损益是公司发生的与经营业务无直接关系的收支；以及虽与经营业务相关，但由于其性质、金额或发生频率等方面的原因，影响了真实公允地反映公司正常盈利能力的各项收入。,市现率=（股票在指定交易日期的收盘价 * 截至当日公司总股本）/现金及现金等价物净增加额TTM,factors_data
+operating_profit,经营活动净收益(元),营业总收入-营业总成本,,factors_data
+value_change_profit,价值变动净收益(元),公允价值变动净收益+投资净收益+汇兑净收益,,factors_data
+roe,净资产收益率ROE(%),归属于母公司股东的净利润*2/（期初归属于母公司股东的净资产+期末归属于母公司股东的净资产）,,factors_data
+inc_return,净资产收益率(扣除非经常损益)(%),扣除非经常损益后的净利润（不含少数股东损益）*2/（期初归属于母公司股东的净资产+期末归属于母公司股东的净资产）,,factors_data
+roa,总资产净利率ROA(%),净利润*2/（期初总资产+期末总资产）,,factors_data
+net_profit_margin,销售净利率(%),净利润/营业收入,,factors_data
+gross_profit_margin,销售毛利率(%),毛利/营业收入,,factors_data
+expense_to_total_revenue,营业总成本/营业总收入(%),营业总成本/营业总收入(%),,factors_data
+operation_profit_to_total_revenue,营业利润/营业总收入(%),营业利润/营业总收入(%),,factors_data
+net_profit_to_total_revenue,净利润/营业总收入(%),净利润/营业总收入(%),,factors_data
+operating_expense_to_total_revenue,营业费用/营业总收入(%),营业费用/营业总收入(%),,factors_data
+ga_expense_to_total_revenue,管理费用/营业总收入(%),管理费用/营业总收入(%),,factors_data
+financing_expense_to_total_revenue,财务费用/营业总收入(%),财务费用/营业总收入(%),,factors_data
+operating_profit_to_profit,经营活动净收益/利润总额(%),经营活动净收益/利润总额(%),,factors_data
+invesment_profit_to_profit,价值变动净收益/利润总额(%),价值变动净收益/利润总额(%),,factors_data
+adjusted_profit_to_profit,扣除非经常损益后的净利润/净利润(%),扣除非经常损益后的净利润/净利润(%),,factors_data
+goods_sale_and_service_to_revenue,销售商品提供劳务收到的现金/营业收入(%),销售商品提供劳务收到的现金/营业收入(%),,factors_data
+ocf_to_revenue,经营活动产生的现金流量净额/营业收入(%),经营活动产生的现金流量净额/营业收入(%),,factors_data
+ocf_to_operating_profit,经营活动产生的现金流量净额/经营活动净收益(%),经营活动产生的现金流量净额/经营活动净收益(%),,factors_data
+inc_total_revenue_year_on_year,营业总收入同比增长率(%),营业总收入同比增长率是企业在一定期间内取得的营业总收入与其上年同期营业总收入的增长的百分比，以反映企业在此期间内营业总收入的增长或下降等情况。,,factors_data
+inc_total_revenue_annual,营业总收入环比增长率(%),营业收入是指企业在从事销售商品，提供劳务和让渡资产使用权等日常经营业务过程中所形成的经济利益的总流入。环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,factors_data
+inc_revenue_year_on_year,营业收入同比增长率(%),"营业收入,是指公司在从事销售商品、提供劳务和让渡资产使用权等日常经营业务过程中所形成的经济利益的总流入，而营业收入同比增长率，则是检验上市公司去年一年挣钱能力是否提高的标准，营业收入同比增长,说明公司在上一年度挣钱的能力加强了，营业收入同比下降，则说明公司的挣钱能力稍逊于往年。",,factors_data
+inc_revenue_annual,营业收入环比增长率(%),环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,factors_data
+inc_operation_profit_year_on_year,营业利润同比增长率(%),同比增长率就是指公司当年期的营业利润和上月同期、上年同期的营业利润比较。（当期的营业利润-上月（上年）当期的营业利润）/上月（上年）当期的营业利润绝对值=利润同比增长率。,,factors_data
+inc_operation_profit_annual,营业利润环比增长率(%),环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,factors_data
+inc_net_profit_year_on_year,净利润同比增长率(%),（当期的净利润-上月（上年）当期的净利润）/上月（上年）当期的净利润绝对值=净利润同比增长率。,,factors_data
+inc_net_profit_annual,净利润环比增长率(%),环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,factors_data
+inc_net_profit_to_shareholders_year_on_year,归属母公司股东的净利润同比增长率(%),归属于母公司股东净利润是指全部归属于母公司股东的净利润，包括母公司实现的净利润和下属子公司实现的净利润；同比增长率，一般是指和去年同期相比较的增长率。同比增长 和上一时期、上一年度或历史相比的增长（幅度）。,,factors_data
+inc_net_profit_to_shareholders_annual,归属母公司股东的净利润环比增长率(%),环比增长率=（本期的某个指标的值-上一期这个指标的值）/上一期这个指标的值*100%。,,factors_data
+total_loan,贷款总额(元),数值,,factors_data
+total_deposit,存款总额(元),数值,,factors_data
+interest_earning_assets,生息资产(元),数值,,factors_data
+non_interest_earning_assets,非生息资产(元),数值,,factors_data
+interest_earning_assets_yield,生息资产收益率(%),数值,,factors_data
+interest_bearing_liabilities,计息负债(元),数值,,factors_data
+non_interest_bearing_liabilities,非计息负债,数值,,factors_data
+interest_bearing_liabilities_interest_rate,计息负债成本率(%),数值,,factors_data
+non_interest_income,非利息收入(元),数值,,factors_data
+non_interest_income_ratio,非利息收入占比(%),数值,,factors_data
+net_interest_margin,净息差(%),数值,,factors_data
+net_profit_margin,净利差(%),数值,,factors_data
+core_level_capital,核心一级资本(2013)(元),数值,,factors_data
+net_core_level_capital,核心一级资本净额(2013)(元),数值,,factors_data
+core_level_capital_adequacy_ratio,核心一级资本充足率(2013)(%),数值,,factors_data
+net_level_1_capital,一级资本净额（2013）(元),数值,,factors_data
+level_1_capital_adequacy_ratio,一级资本充足率（2013）(%),数值,,factors_data
+net_capital,资本净额（2013）(元),数值,,factors_data
+capital_adequacy_ratio,资本充足率（2013）(%),数值,,factors_data
+weighted_risky_asset,风险加权资产合计（2013）(元),数值,,factors_data
+deposit_loan_ratio,存贷款比例(%),数值,,factors_data
+short_term_asset_liquidity_ratio_CNY,短期资产流动性比例（人民币）(%),数值,,factors_data
+short_term_asset_liquidity_ratio_FC,短期资产流动性比例（外币）(%),数值,,factors_data
+Nonperforming_loan_rate,不良贷款率(%),数值,,factors_data
+single_largest_customer_loan_ratio,单一最大客户贷款比例(%),数值,,factors_data
+top_ten_customer_loan_ratio,最大十家客户贷款比例(%),数值,,factors_data
+bad_debts_reserve,贷款呆账准备金(元),数值,,factors_data
+non_performing_loan_provision_coverage,不良贷款拨备覆盖率(%),数值,,factors_data
+cost_to_income_ratio,成本收入比(%),数值,,factors_data
+former_core_capital,核心资本,数值,,factors_data
+former_net_core_capital,核心资本净额（旧）(元),数值,,factors_data
+former_net_core_capital_adequacy_ratio,核心资本充足率,数值,,factors_data
+former_net_capital,资本净额,数值,,factors_data
+former_capital_adequacy_ratio,资本充足率,数值,,factors_data
+former_weighted_risky_asset,加权风险资产净额（旧）(元),数值,,factors_data
+normal_amount,正常-金额(元),数值,,factors_data
+normal_amount_ratio,正常金额占比(%),数值,,factors_data
+concerned_amount,关注-金额(元),数值,,factors_data
+concerned_amount_ratio,关注金额占比(%),数值,,factors_data
+secondary_amount,次级-金额(元),数值,,factors_data
+secondary_amount_ratio,次级金额占比(%),数值,,factors_data
+suspicious_amount,可疑-金额(元),数值,,factors_data
+suspicious_amount_ratio,可疑金额占比(%),数值,,factors_data
+loss_amount,损失-金额(元),数值,,factors_data
+loss_amount_ratio,损失金额占比(%),数值,,factors_data
+short_term_loan_average_balance,短期贷款-平均余额(元),数值,,factors_data
+short_term_loan_annualized_average_interest_rate,短期贷款-年平均利率(%),数值,,factors_data
+mid_term_loan_annualized_average_balance,中长期贷款-平均余额(元),数值,,factors_data
+mid_term_loan_annualized_average_interest_rate,中长期贷款-年平均利率(%),数值,,factors_data
+enterprise_deposits_average_balance,企业存款-平均余额(元),数值,,factors_data
+enterprise_deposits_average_interest_rate,企业存款-年平均利率(%),数值,,factors_data
+savings_deposit_average_balance,储蓄存款-平均余额(元),数值,,macros_data
+savings_deposit_average_interest_rate,储蓄存款-年平均利率(%),数值,,macros_data
+spot_sell,现汇卖出价,数字,,macros_data
+cash_offer_prc,现钞卖出价,数字,,macros_data
+safe_prc,外管局中间价,数字,,macros_data
+bank_reduced_prc,中行折算价,数字,,macros_data
+interest_rate_O/N,隔夜拆借利率,数字,,macros_data
+interest_rate_3m,3月拆借利率,数字,,macros_data
+interest_rate_1y,一年拆借利率,数字,,macros_data
+m2,货币和准货币(M2)供应量,数字,,macros_data
+m1,货币(M1)供应量,数字,,macros_data
+m0,流通中现金(M0)供应量,数字,,macros_data
+m2_yoy,货币和准货币(M2)供应量同比增长率,数字,,macros_data
+m1_yoy,货币(M1)供应量同比增长率,数字,,macros_data
+m0_yoy,流通中现金(M0)供应量同比增长率,数字,,macros_data
+demond_deposit,货币供应量中活期存款供应量,数字,,macros_data
+quosi,准货币供应量,数字,,macros_data
+time_deposit,准货币供应量定期存款,数字,,macros_data
+saving_deposit,准货币供应量储蓄存款,数字,,macros_data
+other_deposit,准货币供应量其他存款,数字,,macros_data
+demond_deposit_yoy,货币供应量中活期存款供应量同比增长率,数字,,macros_data
+quosi_yoy,准货币供应量同比增长率,数字,,macros_data
+time_deposit_yoy,准货币供应量定期存款同比增长率,数字,,macros_data
+saving_deposit_yoy,准货币供应量储蓄存款同比增长率,数字,,macros_data
+other_deposit_yoy,准货币供应量其他存款同比增长率,数字,,macros_data
+foreign_assets,货币当局国外资产,数字,,macros_data
+foreign_exchange,货币当局外汇,数字,,macros_data
+money_gold,货币当局货币黄金,数字,,macros_data
+government_claim,货币当局对政府债权,数字,,macros_data
+bank_claim,货币当局对存款货币银行债权,数字,,macros_data
+other_finance_claim,货币当局对其他金融性公司债权,数字,,macros_data
+non_finance_claim,货币当局对非金融性公司债权,数字,,macros_data
+reserve_money,货币当局储蓄货币,数字,,macros_data
+currency_issue,货币当局储备货币发行,数字,,macros_data
+bank_deposit,货币当局存款货币银行存款,数字,,macros_data
+other_finance_deposit,货币当局其他金融性公司存款,数字,,macros_data
+non_reserve_finance_deposit,货币当局不计入储备货币的金融性公司存款,数字,,macros_data
+bond_issue,货币当局发行债券,数字,,macros_data
+government_deposit,货币当局政府存款,数字,,macros_data
+owned_capital,货币当局自有资金,数字,,macros_data
+rmb_loan,人民币贷款社会融资规模,数字,,macros_data
+foreign_loan,外币贷款(折合人民币)社会融资规模,数字,,macros_data
+entrust_loan,委托贷款社会融资规模,数字,,macros_data
+trust_loan,信托贷款社会融资规模,数字,,macros_data
+out_fulfilled_scale,未贴现银行承兑汇票社会融资规模,数字,,macros_data
+corporate_bond_scale,企业债券社会融资规模,数字,,macros_data
+non_finance_scale,非金融企业境内股票社会融资规模,数字,,macros_data
+total_trade_amount,股票成交金额,数字,,macros_data
+xshg_avg_pe,上海平均市盈率,数字,,macros_data
+xshe_avg_pe,深圳平均市盈率,数字,,macros_data
+xshg_avg_turnover,上海平均换手率,数字,,macros_data
+xshe_avg_turnover,深圳平均换手率,数字,,macros_data
+treasury_bond_issue,国债发行额,数字,,macros_data
+company_bond_issue,企业债券发行额,数字,,macros_data
+bond_amount,债券成交额,数字,,macros_data
+treasury_bond_spot_amount,国债现货成交金额,数字,,macros_data
+treasury_bond_repurchase_amount,国债回购成交金额,数字,,macros_data
+gold,黄金储备,数字,,money_flows_data
+foreign,外汇储备,数字,,money_flows_data
+change_pct,涨跌幅(%),,,money_flows_data
+net_pct_main,主力净占比(%),主力净占比 = 主力净额 / 成交额,,money_flows_data
+net_pct_xl,超大单净占比(%),超大单净占比 = 超大单净额 / 成交额,,money_flows_data
+net_pct_l,大单净占比(%),大单净占比 = 大单净额 / 成交额,,money_flows_data
+net_pct_m,中单净占比(%),中单净占比 = 中单净额 / 成交额,,money_flows_data
+net_pct_s,小单净占比(%),小单净占比 = 小单净额 / 成交额,,money_flows_data
+amount,成交额,,,money_flows_data
+fin_value,"decimal(20,2)",融资余额（元）,,securities_margins_data
+fin_buy_value,"decimal(20,2)",融资买入额（元）,,securities_margins_data
+sec_volume,int,融券余量（股）,,securities_margins_data
+sec_value,"decimal(20,2)",融券余量金额（元）,,securities_margins_data
+sec_sell_volume,int,融券卖出量（股）,,securities_margins_data
+fin_sec_value,"decimal(20,2)",融资融券余额（元）,,securities_margins_data
+HY07101,0-1变量,银行是否属于全国性银行,,industries_data
+HY07102,0-1变量,银行是否属于区域性银行,,industries_data
+included_indexes_number,数值,企业出现在各种综合指数的总数,,indexes_data

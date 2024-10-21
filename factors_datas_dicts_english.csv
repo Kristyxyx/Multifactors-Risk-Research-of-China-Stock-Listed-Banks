@@ -1,0 +1,423 @@
+﻿Factor Code,Factor Name,Details,Supplimental Details,Factor Category
+size,Market capitalization,Capturing the difference in earnings between large-cap and small-cap stocks,,factors_data
+beta,Beta,Characterize the volatility sensitivity of stocks relative to the market,,factors_data
+momentum,Conventional momentum,Describes the difference between relatively strong stocks and weak stocks over the past two years,,factors_data
+residual_volatility,Residual volatility,Explain the difference in yield caused by the volatility after stripping off the market risk,,factors_data
+non_linear_size,Nonlinear Market Cap,"Describes differences in returns that cannot be explained by the size factor but are size-related, typically representing mid-cap stocks",,factors_data
+book_to_price_ratio,Book-to-market ratio,"Describes the income difference caused by different stock valuations, that is, the value factor",,factors_data
+liquidity,Liquidity,This paper explains the difference of yield caused by the different relative trading activity of stocks,,factors_data
+earnings_yield,Profitability,Describes the difference in earnings resulting from earnings earnings,,factors_data
+growth,Grow up,Describes the difference in earnings resulting from different expectations of sales or earnings growth,,factors_data
+leverage,Leverage,Describes the difference in returns between highly leveraged stocks and low leveraged stocks,,factors_data
+net_profit_to_total_operate_revenue_ttm,Ratio of net profit to total operating income,Ratio of net profit to total operating income = net profit (TTM)/total operating income (TTM),,factors_data
+cfo_to_ev,Net cash flows from operating activities to enterprise value TTM,"Net cash flows from operating activities TTM/enterprise value. Among them, enterprise value = company market value + total liabilities-monetary funds",,factors_data
+accounts_payable_turnover_days,Accounts payable turnover days,Accounts payable turnover days = 360/Accounts payable turnover rate,,factors_data
+net_profit_ratio,Net sales profit margin,Net sales margin = net profit (TTM)/operating income (TTM),,factors_data
+net_non_operating_income_to_total_profit,"Non-operating income and expenses, net profit/total profit","Non-operating income and expenses, net profit/total profit",,factors_data
+fixed_asset_ratio,Fixed asset ratio,Ratio of fixed assets = (fixed assets + engineering materials + construction in progress)/total assets,,factors_data
+account_receivable_turnover_days,Accounts receivable turnover days,Accounts receivable turnover days = 360/Accounts receivable turnover rate,,factors_data
+DEGM,Gross profit margin growth,Gross profit margin growth = (this years gross profit margin (TTM)/last years gross profit margin (TTM))-1,,factors_data
+sale_expense_to_operating_revenue,Ratio of operating expenses to total operating income,Ratio of operating expenses to total operating revenue = selling expenses (TTM)/total operating revenue (TTM),,factors_data
+operating_tax_to_operating_revenue_ratio_ttm,Sales tax rate,Sales tax rate = business tax and surcharges (TTM)/operating income (TTM),,factors_data
+inventory_turnover_days,Inventory turnover days,Inventory turnover days = 360/inventory turnover rate,,factors_data
+OperatingCycle,Business cycle,Accounts receivable turnover days + inventory turnover days,,factors_data
+net_operate_cash_flow_to_operate_income,Ratio of net cash flows from operating activities to net income from operating activities,Net Cash Flow from Operating Activities (TTM)/(Total Operating Revenue (TTM)-Total Operating Cost (TTM)),,factors_data
+net_operating_cash_flow_coverage,Net profit cash content,Net cash flows from operating activities/net profit attributable to owners of the parent company,,factors_data
+quick_ratio,Quick ratio,Quick Ratio = (Total Current Assets-Inventory)/Total Current Liabilities,,factors_data
+intangible_asset_ratio,Ratio of intangible assets,Intangible assets ratio = (intangible assets + research and development expenditure + goodwill)/total assets,,factors_data
+MLEV,Market leverage,Market leverage = total non-current liabilities/(total non-current liabilities + total market value),,factors_data
+debt_to_equity_ratio,Equity ratio,Equity ratio = total liabilities/total owners equity attributable to the parent company,,factors_data
+super_quick_ratio,Overdrive ratio,(Monetary funds + trading financial assets + notes receivable + accounts receivable + other receivables)/Total current liabilities,,factors_data
+inventory_turnover_rate,Inventory turnover rate,Inventory Turnover = Cost of Operations (TTM)/Inventory,,factors_data
+operating_profit_growth_rate,Operating profit growth rate,Operating profit growth rate = (this years operating profit (TTM)/last years operating profit (TTM))-1,,factors_data
+long_debt_to_working_capital_ratio,Long-term debt-to-working capital ratio,Long-term liabilities to working capital ratio = total non-current liabilities/(total current assets-total current liabilities),,factors_data
+current_ratio,Current ratio (single quarter),Current ratio = Total current assets/Total current liabilities,,factors_data
+net_operate_cash_flow_to_net_debt,Net cash flows from operating activities/net debt,Net cash flows from operating activities/net debt,,factors_data
+net_operate_cash_flow_to_asset,Cash recovery rate of total assets,Net cash flows from operating activities (ttm)/total assets,,factors_data
+non_current_asset_ratio,Non-current assets ratio,Non-current assets ratio = total non-current assets/total assets,,factors_data
+total_asset_turnover_rate,Total asset turnover ratio,Total asset turnover ratio = operating income (ttm)/total assets,,factors_data
+long_debt_to_asset_ratio,Ratio of long-term borrowings to total assets,Ratio of long-term borrowings to total assets = long-term borrowings/total assets,,factors_data
+debt_to_tangible_equity_ratio,Tangible net debt ratio,"Total liabilities/net tangible value where net tangible value = shareholders equity-net intangible assets, net intangible assets = goodwill + intangible assets",,factors_data
+ROAEBITTTM,Return on total assets,(Total profit (TTM) + interest expense (TTM))/average of total assets in the past 12 months,,factors_data
+operating_profit_ratio,Operating profit margin,Operating profit margin = Operating profit (TTM)/Operating income (TTM),,factors_data
+long_term_debt_to_asset_ratio,Ratio of long-term liabilities to total assets,Ratio of long-term liabilities to total assets = total non-current liabilities/total assets,,factors_data
+current_asset_turnover_rate,Current Asset Turnover RatioTTM,Trailing 12-month operating income/Trailing 12-month average current assets combined,,factors_data
+financial_expense_rate,Ratio of financial expenses to total operating income,Finance Expenses (TTM)/Total Operating Revenue (TTM),,factors_data
+operating_profit_to_total_profit,Total net income/profit from operating activities,Total net income/profit from operating activities,,factors_data
+debt_to_asset_ratio,Debt to Total Assets Ratio,Total debt-to-asset ratio = Total liabilities/Total assets,,factors_data
+equity_to_fixed_asset_ratio,Shareholders equity and fixed assets ratio,Ratio of shareholders equity to fixed assets = shareholders equity/(fixed assets + engineering materials + construction in progress),,factors_data
+net_operate_cash_flow_to_total_liability,Net cash flows from operating activities/total liabilities,Net cash flows from operating activities/total liabilities,,factors_data
+cash_rate_of_sales,Ratio of net cash flows from operating activities to operating income,Net cash flows from operating activities (TTM)/operating income (TTM),,factors_data
+operating_profit_to_operating_revenue,Ratio of operating profit to total operating income,Ratio of operating profit to total operating income = operating profit (TTM)/total operating income (TTM),,factors_data
+roa_ttm,Return on AssetsTTM,Return on assets = net profit (TTM)/total assets at the end of the period,,factors_data
+admin_expense_rate,Ratio of administrative expenses to total operating income,Ratio of administrative expenses to total operating income = administrative expenses (TTM)/total operating income (TTM),,factors_data
+fixed_assets_turnover_rate,Fixed asset turnover rate,Equal to the operating income of the past 12 months/the average of the past 12 months (fixed assets + engineering materials + construction in progress),,factors_data
+invest_income_associates_to_total_profit,Total income/profit from investments in associates and joint ventures,Total income/profit from investments in associates and operated companies,,factors_data
+equity_to_asset_ratio,Shareholders equity ratio,Shareholders Equity Ratio = Shareholders Equity/Total Assets,,factors_data
+goods_service_cash_to_operating_revenue_ttm,Ratio of cash received from sales of goods and rendering of labor services to operating income,Ratio of cash received from selling goods and providing services to operating income = cash received from selling goods and providing services (TTM)/operating income (TTM),,factors_data
+cash_to_current_liability,CASH RATIO,12-month average of cash and cash equivalents balance/total current liabilities at the end of the period,,factors_data
+net_operate_cash_flow_to_total_current_liability,Cash current liabilities ratio,Cash flow-to-liability ratio = net cash flow from operating activities (TTM)/total current liabilities,,factors_data
+ACCA,Difference between cash flow-to-asset ratio and return on assets,"Cash flow-asset ratio-return on assets, where cash flow-asset ratio = net cash flow generated from operating activities/total assets",,factors_data
+roe_ttm,Return on EquityTTM,Return on Equity = Net Profit (TTM)/Shareholders Equity at the End of the Period,,factors_data
+accounts_payable_turnover_rate,Accounts payable turnover ratio,"TTM (Cost of Operations, 0)/(AvgQ (Accounts Payable, 4, 0) + AvgQ (Notes Payable, 4, 0) + AvgQ (Prepayments, 4, 0))",,factors_data
+gross_income_ratio,Gross sales profit margin,Gross sales profit margin = (operating income (TTM)-operating cost (TTM))/operating income (TTM),,factors_data
+adjusted_profit_to_total_profit,Net profit/total profit after deducting non-recurring gains and losses,Net profit/total profit after deducting non-recurring gains and losses,,factors_data
+account_receivable_turnover_rate,Accounts receivable turnover ratio,"That is, TTM (operating income)/(TTM (accounts receivable) + TTM (bills receivable) + TTM (accounts received in advance))",,factors_data
+equity_turnover_rate,Shareholders equity turnover ratio,Shareholders equity turnover ratio = operating income (ttm)/shareholders equity,,factors_data
+total_profit_to_cost_ratio,Cost expense profit margin,Cost expense profit margin = total profit/(operating cost + financial expense + sales expense + management expense). TTM values are used in the above accounts,,factors_data
+operating_cost_to_operating_revenue_ratio,Cost of sales ratio,Cost of sales ratio = Cost of sales (TTM)/Revenue of sales (TTM),,factors_data
+LVGI,Financial Leverage Index,Asset-liability ratio of the current period (annual report)/Asset-liability ratio of the previous period (annual report),,factors_data
+SGI,Operating income index,Operating income of the current period (annual report)/operating income of the previous period (annual report),,factors_data
+GMI,Gross profit margin index,Gross profit margin of the previous period (annual report)/Gross profit margin of the current period (annual report),,factors_data
+DSRI,Accounts receivable index,Proportion of accounts receivable in the current period (annual report) to operating income/Proportion of accounts receivable in the previous period (annual report) to operating income,,factors_data
+rnoa_ttm,Return on Operating AssetsTTM,Sales profit margin * Operating asset turnover rate,,factors_data
+profit_margin_ttm,Sales MarginTTM,Operating profit/operating income,,factors_data
+roe_ttm_8y,Long-Term Return on EquityTTM,"The cumulative multiplication of 8 years (1 + roe _ ttm) ^ (1/8)-1 # must have at least 4 years of data, otherwise it is nan",,factors_data
+asset_turnover_ttm,Operating Asset Turnover RatioTTM,Operating income TTM/average net operating assets at the end of the last four quarters; Net operating assets = operating assets-operating liabilities,,factors_data
+roic_ttm,Return on Invested CapitalTTM,Return on equity = Net profit attributable to shareholders of the parent company (TTM)/average invested capital in the previous four quarters; Investment capital = shareholders equity + total liabilities-interest-free current liabilities-interest-free non-current liabilities; Interest-free current liabilities = accounts payable + advance receipts + employee benefits payable + taxes payable + other payables + deferred income within one year + other current liabilities; Interest-free non-current liabilities = total non-current liabilities-long-term borrowings-bonds payable;,,factors_data
+roa_ttm_8y,Long-Term Return on AssetsTTM,"The product of 8 years (1 + roa _ ttm) ^ (1/8)-1 # must have at least 4 years of data, otherwise it is nan",,factors_data
+SGAI,Sales and Administrative Expenses Index,Proportion of sales and management expenses in the current period (annual report) to operating income/Proportion of sales and management expenses in the previous period (annual report) to operating income,,factors_data
+DEGM_8y,Long-term gross profit margin growth,Past 8 years (1 + DEGM) cumulative ^ (1/8)-1,,factors_data
+maximum_margin,Maximum profitability level,"max (margin _ stability, DEGM _ 8y)",,factors_data
+margin_stability,Stability of profitability,mean (GM)/std (GM); GM is last 8 years gross profit marginttm,,factors_data
+net_working_capital,Net working capital,Current assets-current liabilities,,factors_data
+total_operating_revenue_ttm,Total operating income TTM,Calculate the sum of total operating income for the past 12 months,,factors_data
+operating_profit_ttm,Operating Profit TTM,Calculate the sum of trailing 12-month operating profit,,factors_data
+net_operate_cash_flow_ttm,Net cash flows from operating activities TTM,Calculate the sum of net cash flows generated from operating activities in the past 12 months,,factors_data
+operating_revenue_ttm,Operating RevenueTTM,Calculate the sum of operating income for the last 12 months,,factors_data
+interest_carry_current_liability,Interest-bearing current liabilities,Total current liabilities-interest-free current liabilities,,factors_data
+sale_expense_ttm,Selling expenseTTM,Calculate the sum of sales expenses for the past 12 months,,factors_data
+gross_profit_ttm,Gross Profit TTM,Trailing 12-month gross profit combined,,factors_data
+retained_earnings,Retained earnings,Surplus reserve + undistributed profits,,factors_data
+total_operating_cost_ttm,Total operating cost TTM,Calculate the sum of total operating costs for the past 12 months,,factors_data
+non_operating_net_profit_ttm,Net non-operating income and expendituresTTM,Non-operating income (TTM)-Non-operating expenses (TTM),,factors_data
+net_invest_cash_flow_ttm,Net cash flows from investing activities TTM,Calculate the sum of net cash flows from investing activities for the past 12 months,,factors_data
+financial_expense_ttm,Finance costsTTM,Calculate the sum of finance expenses for the past 12 months,,factors_data
+administration_expense_ttm,Administrative ExpenseTTM,Calculate the sum of administrative expenses for the past 12 months,,factors_data
+net_interest_expense,Net interest expense,Interest expense-interest income,,factors_data
+value_change_profit_ttm,Net Gain from Changes in ValueTTM,Calculate the sum of net gains from changes in value over the past 12 months,,factors_data
+total_profit_ttm,Total Profit TTM,Calculate the sum of total profits in the past 12 months,,factors_data
+net_finance_cash_flow_ttm,Net cash flows from financing activities TTM,Calculate the sum of net cash flows from financing activities for the past 12 months,,factors_data
+interest_free_current_liability,Interest-free current liabilities,Notes payable + Accounts payable + Accounts received in advance (replaced by pre-sale payments) + Taxes payable + Interest payable + Other payables + Other current liabilities,,factors_data
+EBIT,Earnings before interest and tax,Net profit + income tax + financial expenses,,factors_data
+net_profit_ttm,Net Income TTM,Calculate the sum of trailing 12-month net income,,factors_data
+OperateNetIncome,Net income from operating activities,Net income from operating activities/total profit (%) * total profit,,factors_data
+EBITDA,"Earnings before interest, taxes, depreciation and amortization (reporting period)","General enterprises: (total operating income-business taxes and surcharges)-(operating costs + interest expenses + handling fees and commission expenses + sales expenses + management expenses + research and development expenses + asset impairment losses) + (depreciation of fixed assets, depreciation of oil and gas assets, depreciation of productive biological assets) + amortization of intangible assets + amortization of long-term deferred expenses;",,factors_data
+,,"Banking industry: (total operating income-business taxes and surcharges)-(operating costs + management expenses + asset impairment losses) + (depreciation of fixed assets, depletion of oil and gas assets, depreciation of productive biological assets + amortization of intangible assets + amortization of long-term deferred expenses)",,factors_data
+asset_impairment_loss_ttm,Impairment losses on assetsTTM,Calculate the sum of asset impairment losses in the past 12 months,,factors_data
+np_parent_company_owners_ttm,Net Income Attributable to Shareholders of the Parent CompanyTTM,Calculate the sum of the net income attributable to shareholders of the parent for the past 12 months,,factors_data
+operating_cost_ttm,Cost of sales TTM,Calculate the sum of operating costs for the past 12 months,,factors_data
+net_debt,Net debt,Total Debt-Closing Balance of Cash and Cash Equivalents,,factors_data
+non_recurring_gain_loss,Non-recurring gains and losses,Net profit attributable to shareholders of the parent company-net profit after deducting non-recurring gains and losses (yuan),,factors_data
+goods_sale_and_service_render_cash_ttm,Cash received from sales of goods and rendering of services,Calculate the sum of cash received from selling goods and rendering services in the past 12 months,,factors_data
+market_cap,Market capitalization,Market capitalization,,factors_data
+cash_flow_to_price_ratio,Cash flow to market capitalization ratio,1/pcf _ ratio (ttm),,factors_data
+sales_to_price_ratio,Revenue to market value ratio,1/ps _ ratio (ttm),,factors_data
+circulating_market_cap,Circulating market cap,Circulating market cap,,factors_data
+operating_assets,Operating assets,Total assets-Financial assets,,factors_data
+financial_assets,Financial assets,Monetary funds + trading financial assets + notes receivable + interest receivable + dividends receivable + available-for-sale financial assets + held-to-maturity investments,,factors_data
+operating_liability,Operating liabilities,Total liabilities-Financial liabilities,,factors_data
+financial_liability,Financial liabilities,(Total current liabilities-interest-free current liabilities) + (interest-bearing non-current liabilities) = (Total current liabilities-accounts payable-advance receipts-employee benefits payable-taxes payable-other payables-deferred income within one year-other current liabilities) + (long-term loans + bonds payable),,factors_data
+operating_revenue_growth_rate,Operating income growth rate,Operating income growth rate = (this years operating income (TTM)/last years operating income (TTM))-1,,factors_data
+total_asset_growth_rate,Growth rate of total assets,Total Assets/Total Assets _ 4-1,,factors_data
+net_operate_cashflow_growth_rate,Growth rate of net cash flows from operating activities,(Current Net Cash Flow from Operating Activities (TTM)/Last Years Net Cash Flow from Operating Activities (TTM))-1,,factors_data
+total_profit_growth_rate,Total profit growth rate,Total profit growth rate = (Total profit this year (TTM)/Total profit last year (TTM))-1,,factors_data
+np_parent_company_owners_growth_rate,Growth rate of net profit attributable to owners of the parent company,(Net profit attributable to owners of the parent company (TTM) this year/Net profit attributable to owners of the parent company (TTM) last year)-1,,factors_data
+financing_cash_growth_rate,Growth rate of net cash flows from financing activities,Net financing cash flows for the last 12 months/Net financing cash flows for the 12 months prior to the fourth quarter-1,,factors_data
+net_profit_growth_rate,Net profit growth rate,Net profit growth rate = (this years net profit (TTM)/last years net profit (TTM))-1,,factors_data
+net_asset_growth_rate,Net assets growth rate,(Shareholders equity in the current quarter/Shareholders equity before the third quarter)-1,,factors_data
+PEG,Price-to-earnings ratio relative to earnings growth ratio,PEG = PE/(Net profit attributable to parent company (TTM) growth rate * 100) # nan if PE or growth rate is negative,,factors_data
+total_operating_revenue_per_share_ttm,Total operating income per shareTTM,Total operating income (TTM) divided by total equity,,factors_data
+cash_and_equivalents_per_share,Balance of cash and cash equivalents per share,Balance of cash and cash equivalents per share,,factors_data
+surplus_reserve_fund_per_share,Earnings per share reserve,Earnings per share reserve,,factors_data
+retained_profit_per_share,Undistributed earnings per share,Undistributed earnings per share,,factors_data
+operating_revenue_per_share_ttm,Operating Income Per Share TTM,Operating income (TTM) divided by total equity,,factors_data
+net_asset_per_share,Net assets per share,(Total equity attributable to owners of the parent company-other equity instruments) divided by total share capital,,factors_data
+total_operating_revenue_per_share,Total operating income per share,Total operating income per share,,factors_data
+retained_earnings_per_share,Retained earnings per share,Retained earnings per share,,factors_data
+operating_revenue_per_share,Operating income per share,Operating income per share,,factors_data
+net_operate_cash_flow_per_share,Net cash flows generated from operating activities per share,Net cash flows generated from operating activities per share,,factors_data
+operating_profit_per_share_ttm,Operating Earnings Per Share TTM,Operating profit (TTM) divided by total equity,,factors_data
+eps_ttm,Earnings Per Share TTM,Trailing 12-month net income attributable to owners of the parent (TTM) divided by total equity,,factors_data
+cashflow_per_share_ttm,"Net cash flow per share, based on the current date to obtain the total share capital on the latest change date",Net cash flow (TTM) divided by total share capital,,factors_data
+operating_profit_per_share,Operating earnings per share,Operating earnings per share,,factors_data
+capital_reserve_fund_per_share,Capital reserve per share,Capital reserve per share,,factors_data
+VROC12,12-day volume change rate indicator,"Trading volume minus the trading volume before n days, then divide it by the trading volume before n days, and enlarge it 100 times to get the VROC value, n = 12",,factors_data
+TVMA6,Moving average of 6-day turnover,Moving average of 6-day turnover,,factors_data
+VEMA10,10-Day Exponential Moving Average of Volume,,,factors_data
+VR,Volume Ratio,VR = (AVS+1/2 CVS)/(BVS+1/2 CVS),,factors_data
+VOL5,5-day average turnover rate,"The average value of 5-day turnover rate, in%",,factors_data
+BR,Willingness indicator,BR = sum of N days (highest price of the day-yesterdays closing price)/sum of N days (yesterdays closing price-lowest price of the day) × 100 n is set to 26,,factors_data
+VEMA12,Moving Average of 12-Day Volume,,,factors_data
+TVMA20,Moving average of 20-day turnover,Moving average of 20-day turnover,,factors_data
+DAVOL5,5-day average turnover rate and 120-day average turnover rate,5-day average turnover rate/120-day average turnover rate,,factors_data
+VDIFF,Intermediate variables for calculating the VMACD factor,"EMA (VOLUME, short)-EMA (VOLUME, long) short is set to 12, long is set to 26, and M is set to 9",,factors_data
+WVAD,William variation discrete quantity,"(closing price-opening price)/(highest price-lowest price) × trading volume, and then add, using the data of the past 6 trading days",,factors_data
+MAWVAD,6-day mean of factor WVAD,,,factors_data
+VSTD10,10-Day Volume Standard Deviation,10-Day Volume Standard Deviation,,factors_data
+ATR14,14-day average indicator,14-day moving average of true amplitude,,factors_data
+VOL10,10-day average turnover rate,"The average value of 10-day turnover rate, in%",,factors_data
+DAVOL10,Ratio of 10-day average turnover rate to 120-day average turnover rate,10-day average turnover rate/120-day average turnover rate,,factors_data
+VDEA,Intermediate variables for calculating the VMACD factor,"EMA (VDIFF, M) short is set to 12, long is set to 26, and M is set to 9",,factors_data
+VSTD20,20-Day Volume Standard Deviation,20-Day Volume Standard Deviation,,factors_data
+ATR6,6-day average index,6-day moving average of true amplitude,,factors_data
+VOL20,20-day average turnover rate,"The average value of 20-day turnover rate, in%",,factors_data
+DAVOL20,Ratio of 20-day average turnover rate to 120-day average turnover rate,20-day average turnover rate/120-day average turnover rate,,factors_data
+VMACD,Volume Exponential Smoothing Similarities and Differences Moving Average,"Subtract the slow exponential moving average (EMA26) from the fast exponential moving average (EMA12) to obtain the fast DIFF, the DEA is obtained from the M-day moving average of DIFF, and the MACD is obtained from the value of DIFF-DEA",,factors_data
+AR,Popularity indicator,"AR = sum of n days (highest price of the day-opening price of the day)/sum of n days (opening price of the day-lowest price of the day) * 100, n is set to 26",,factors_data
+VOL60,60-day average turnover rate,Average 60-day turnover rate in%,,factors_data
+turnover_volatility,Relative volatility of turnover rate,Take the standard deviation of the turnover rate of individual stocks in 20 trading days,,factors_data
+VOL120,120-day average turnover rate,"The average value of 120-day turnover rate, unit is%",,factors_data
+VROC6,6-day volume change rate indicator,"Trading volume minus the trading volume before n days, then divide it by the trading volume before n days, and enlarge it 100 times to get the VROC value, n = 6",,factors_data
+TVSTD20,Standard deviation of 20-day transaction amount,Standard deviation of 20-day turnover,,factors_data
+ARBR,ARBR,Difference between factor AR and factor BR,,factors_data
+money_flow_20,20-day capital flow,"Multiply the average of the closing price, the highest price and the lowest price by the trading volume of the day to get the capital flow of the trading day",,factors_data
+VEMA5,5-Day Exponential Moving Average of Volume,,,factors_data
+VOL240,240-day average turnover rate,"The average value of 240-day turnover rate, unit is%",,factors_data
+VEMA26,26-Day Exponential Moving Average of Volume,,,factors_data
+VOSC,Volume volatility,"The difference between VEMA12 and VEMA26, then calculate the ratio of the difference to VEMA12, and finally amplify the ratio by 100 times to obtain the VOSC value",,factors_data
+TVSTD6,Standard deviation of 6-day transaction amount,Standard deviation of 6-day turnover,,factors_data
+PSY,Psychological line indicator,Number of days up in 12 days/n * 100,,factors_data
+Variance20,20-day annualized return variance,20-day annualized return variance,,factors_data
+Skewness20,20-day skewness of individual stock returns,20-day skewness of individual stock returns,,factors_data
+Kurtosis20,20-day kurtosis of individual stock returns,20-day kurtosis of individual stock returns,,factors_data
+sharpe_ratio_20,20-day Sharpe ratio,"(Rp-Rf)/Sigma p where Rp is the annualized rate of return of the individual stock, Rf is the risk-free interest rate (set here to 0.04), and Sigma p is the return volatility (standard deviation) of the individual stock",,factors_data
+Variance60,60-day annualized return variance,60-day annualized return variance,,factors_data
+Skewness60,60-day skewness of individual stock returns,60-day skewness of individual stock returns,,factors_data
+Kurtosis60,60-day kurtosis of individual stock returns,60-day kurtosis of individual stock returns,,factors_data
+sharpe_ratio_60,60-day Sharpe ratio,"(Rp-Rf)/Sigma p where Rp is the annualized rate of return of the individual stock, Rf is the risk-free interest rate (set here to 0.04), and Sigma p is the return volatility (standard deviation) of the individual stock",,factors_data
+Variance120,120-day annualized return variance,120-day annualized return variance,,factors_data
+Skewness120,120-day skewness of individual stock returns,120-day skewness of individual stock returns,,factors_data
+Kurtosis120,120-day kurtosis of individual stock returns,120-day kurtosis of individual stock returns,,factors_data
+sharpe_ratio_120,120-day Sharpe ratio,"(Rp-Rf)/Sigma p where Rp is the annualized rate of return of the individual stock, Rf is the risk-free interest rate (set here to 0.04), and Sigma p is the return volatility (standard deviation) of the individual stock",,factors_data
+boll_down,Lower track (Bollinger Bands) indicator,"(MA (CLOSE, M)-2 * STD (CLOSE, M))/Todays CLOSE; M = 20",,factors_data
+boll_up,Upper Track (Bollinger Bands) Indicator,"(MA (CLOSE, M) +2 * STD (CLOSE, M))/todays CLOSE; M = 20",,factors_data
+EMA5,5-day exponential moving average,5-Day Exponential Moving Average/Todays Close,,factors_data
+EMAC10,10-day exponential moving average,10-Day Exponential Moving Average/Todays Close,,factors_data
+EMAC12,12-day exponential moving average,12-Day Exponential Moving Average/Todays Close,,factors_data
+EMAC20,20-day exponential moving average,20-Day Exponential Moving Average/Todays Close,,factors_data
+EMAC26,26-day exponential moving average,26-Day Exponential Moving Average/Todays Close,,factors_data
+EMAC120,120-day exponential moving average,120-Day Exponential Moving Average/Todays Close,,factors_data
+MAC5,5-day moving average,5-Day Moving Average/Todays Close,,factors_data
+MAC10,10-day moving average,10-Day Moving Average/Todays Close,,factors_data
+MAC20,20-day moving average,20-Day Moving Average/Todays Close,,factors_data
+MAC60,60-day moving average,60-Day Moving Average/Todays Close,,factors_data
+MAC120,120-day moving average,120-Day Moving Average/Todays Close,,factors_data
+MACDC,Smooth Similarities and Differences Moving Average,"MACD (SHORT = 12, LONG = 26, MID = 9)/Todays close",,factors_data
+MFI14,Capital flow indicators,"① Find the typical price (the average of the highest price, lowest price and closing price of the day)",,factors_data
+,,② Determine the positive and negative capital flow according to the typical price (capital flow = typical price * trading volume),,factors_data
+,,③ Calculate MR = positive/negative ④ MFI = 100-100/(1 + MR),,factors_data
+price_no_fq,Non-reinstatement price,Non-reinstatement price,,factors_data
+arron_up_25,Aroon indicator upper track,Aroon = [(Calculation Period Days-Days after Maximum Price)/Calculation Period Days] * 100,,factors_data
+arron_down_25,Aroon indicator lower track,Aroon = [(Days of Calculation Period-Days after Low Price)/Days of Calculation Period] * 100,,factors_data
+BBIC,BBI momentum,"BBI (3, 6, 12, 24)/closing price (BBI is a commonly used technical indicator factor ""long-short moving average"")",,factors_data
+bear_power,Short force,"(lowest price -EMA (close, 13))/close",,factors_data
+BIAS5,5-day deviation rate,"(Closing price-n-day simple average of closing price)/n-day simple average of closing price * 100, where n takes 5",,factors_data
+BIAS10,10-day deviation rate,"(Closing price-n-day simple average of closing price)/n-day simple average of closing price * 100, where n takes 10",,factors_data
+BIAS20,20-day deviation rate,"(Closing price-n-day simple average of closing price)/n-day simple average of closing price * 100, where n is 20",,factors_data
+BIAS60,60-day deviation rate,"(Closing price-n-day simple average of closing price)/n-day simple average of closing price * 100, where n is 60",,factors_data
+bull_power,Multi-head force,"(highest price -EMA (close, 13))/close",,factors_data
+CCI10,10-day homeopathic indicators,"CCI: = (TYP-MA (TYP, N))/(0.015 * AVEDEV (TYP, N)); TYP: = (HIGH + LOW + CLOSE)/3; N: = 10",,factors_data
+CCI15,15-day homeopathic indicators,"CCI: = (TYP-MA (TYP, N))/(0.015 * AVEDEV (TYP, N)); TYP: = (HIGH + LOW + CLOSE)/3; N: = 15",,factors_data
+CCI20,20-day homeopathic indicators,"CCI: = (TYP-MA (TYP, N))/(0.015 * AVEDEV (TYP, N)); TYP: = (HIGH + LOW + CLOSE)/3; N: = 20",,factors_data
+CCI88,88-day homeopathic indicator,"CCI: = (TYP-MA (TYP, N))/(0.015 * AVEDEV (TYP, N)); TYP: = (HIGH + LOW + CLOSE)/3; N: = 88",,factors_data
+CR20,CR indicator,① Middle price = the highest price 1 day ago + the lowest price/2,,factors_data
+,,② Upward appreciation = todays highest price-the middle price of the previous day (negative value is recorded as 0),,factors_data
+,,③ Declining value = the middle price of the previous day-todays lowest price (negative value is recorded as 0),,factors_data
+,,"④ Long-side strength = the sum of 20-day upward appreciation, short-side strength = the sum of 20-day downward values",,factors_data
+,,⑤ CR = (multi-party strength ÷ empty-side strength) × 100,,factors_data
+fifty_two_week_close_rank,The current price is where the stock price is in the past 1 year,"Take the closing price time series of each stock in the past 250 trading days, arrange each stock from largest to smallest, and find out where it is on that day",,factors_data
+MASS,Metz Line,"MASS (N1 = 9, N2 = 25, M = 6)",,factors_data
+PLRC12,Linear regression coefficient between the closing price and the date on the 12th day,"Calculate the linear regression coefficient between the closing price of the 12th day and the date serial number (1-12), (close/mean (close)) = beta * t + alpha",,factors_data
+PLRC24,Linear regression coefficient between closing price and date on the 24th day,"Calculate the linear regression coefficient between the closing price on the 24th and the date serial number (1-24), (close/mean (close)) = beta * t + alpha",,factors_data
+PLRC6,Linear regression coefficient between closing price and date on 6 days,"Calculate the linear regression coefficient between the closing price of the 6th day and the date serial number (1-6), (close/mean (close)) = beta * t + alpha",,factors_data
+Price1M,The current stock price is divided by the average stock price in the past month and then minus 1,Closing price of the day/mean (closing price of the past month (21 days))-1,,factors_data
+Price3M,Current stock price divided by the average stock price of the past three months minus 1,Closing price of the day/mean (closing price of the past three months (61 days))-1,,factors_data
+Price1Y,The current stock price is divided by the average stock price in the past year and then minus 1,Closing price of the day/mean (Closing price of the past year (250 days))-1,,factors_data
+Rank1M,1 minus the ratio of yield ranking in the past month to the total number of stocks,1-(Rank (20-day income of individual stocks)/total number of stocks),,factors_data
+ROC12,12-day rate of change (Price Rate of Change),① AX = todays closing price-the closing price of 12 days ago,,factors_data
+,,② BX = closing price 12 days ago,,factors_data
+,,③ ROC = AX/BX * 100,,factors_data
+ROC120,120-day rate of change (Price Rate of Change),① AX = todays closing price-the closing price 120 days ago,,factors_data
+,,② BX = closing price 120 days ago,,factors_data
+,,③ ROC = AX/BX * 100,,factors_data
+ROC20,20-day rate of change (Price Rate of Change),① AX = todays closing price-the closing price of 20 days ago,,factors_data
+,,② BX = closing price 20 days ago,,factors_data
+,,③ ROC = AX/BX * 100,,factors_data
+ROC6,6-day rate of change (Price Rate of Change),① AX = todays closing price-the closing price 6 days ago,,factors_data
+,,② BX = closing price 6 days ago,,factors_data
+,,③ ROC = AX/BX * 100,,factors_data
+ROC60,60-day rate of change (Price Rate of Change),① AX = todays closing price-the closing price 60 days ago,,factors_data
+,,② BX = closing price 60 days ago,,factors_data
+,,③ ROC = AX/BX * 100,,factors_data
+single_day_VPT,Single-day price and volume trend,(Todays closing price-yesterdays closing price)/yesterdays closing price * trading volume of the day # (the reinstatement method is based on the reinstatement before the current day),,factors_data
+single_day_VPT_12,Single-day price and volume trend 12 average,"MA (single _ day _ VPT, 12)",,factors_data
+single_day_VPT_6,Single-day price and volume trend 6-day average,"MA (single _ day _ VPT, 6)",,factors_data
+TRIX10,10-Day Ultimate Indicator TRIX,MTR = 10-day exponential moving average of the closing price 10-day exponential moving average of the 10-day exponential moving average of the 10-day exponential moving average (find three times ema10);,,factors_data
+,,TRIX = (MTR before MTR-1)/MTR before 1 day * 100,,factors_data
+TRIX5,5-Day Ultimate Indicator TRIX,MTR = 5-day exponential moving average of the closing price 5-day exponential moving average of the 5-day exponential moving average of the 5-day exponential moving average (find three times ema5);,,factors_data
+,,TRIX = (MTR before MTR-1)/MTR before 1 day * 100,,factors_data
+Volume1M,Current trading volume compared to the product of the average daily trading volume in the past 1 month and the average daily yield in the past 20 days,Volume of the Day/Volume of the Last 20 Days MEAN * Yield of the Last 20 Days MEAN,,factors_data
+turnover_ratio,Turnover rate (%),"Refers to the frequency of stocks changing hands in the market within a certain period of time, and is one of the indicators reflecting the strength of stock liquidity.",,factors_data
+pe_ratio,"Price-to-earnings ratio (PE, TTM)","The market price per share is a multiple of earnings per share, which reflects the price investors are willing to pay per dollar of net profit. It is used to estimate the investment return and risk of stocks",,factors_data
+pe_ratio_lyr,Price-to-Earnings Ratio (PE),Static price-to-earnings ratio based on earnings per share for the previous year. Stock Price/Recent Annual Report EPS,Turnover rate = [trading volume on a designated trading day (lots) × 100/circulating share capital (shares) of stocks as of that date] × 100%,factors_data
+pb_ratio,Price to Book Ratio (PB),Ratio of price per share to net assets per share,"Price-to-earnings ratio (PE, TTM) = (closing price of the stock on the specified trading date * total share capital of the company as of that date)/net profit attributable to shareholders of the parent company TTM.",factors_data
+ps_ratio,"Price-to-sales ratio (PS, TTM)","The price-to-sales ratio is the ratio of a stocks price to sales revenue per share. The smaller the price-to-sales ratio, the higher the investment value is generally considered.",Price-to-earnings ratio (PE) = (closing price of the stock on the specified trading date * total share capital of the company as of that day)/net profit attributable to shareholders of the parent company.,factors_data
+pcf_ratio,"Price to Current Ratio (PCF, Net Cash Flow TTM)",Market price per share is a multiple of net cash flow per share,Price-to-book ratio = (closing price of the stock on the specified trading date * total share capital of the company as of that date)/(equity attributable to shareholders of the parent company MRQ-other equity instruments).,factors_data
+eps,Earnings per share EPS (yuan),"Earnings per share (diluted) = net profit/share capital at the end of the period; The numerator is taken from the single-quarter income statement, and the denominator is the equity value of the reporting period at the end of the quarter; Net profit refers to the net profit attributable to shareholders of the parent company (yuan)",Price-to-sales ratio TTM = (closing price of the stock on the specified trading date * total share capital of the company as of that day)/total operating income TTM,factors_data
+adjusted_profit,Net profit after deducting non-recurring gains and losses (yuan),"The concept of non-recurring gains and losses was first put forward by the China Securities Regulatory Commission in 1999, when it was defined as one-time or sporadic gains and losses other than the companys normal operating gains and losses. ""Q&A No.1"" points out that non-recurring gains and losses are the income and expenditure of the company that are not directly related to its business operations; And although related to business operations, due to reasons such as its nature, amount or frequency of occurrence, it affects various incomes that truly and fairly reflect the companys normal profitability.",Price-to-Current Ratio = (Closing Price of the Stock on the Specified Trading Date * Total Company Share Capital as of that Date)/Net Increase in Cash and Cash Equivalents TTM,factors_data
+operating_profit,Net income from operating activities (yuan),Total operating costs-Total operating costs,,factors_data
+value_change_profit,Net income from changes in value (yuan),Net gain from change in fair value + Net investment gain + Net exchange gain,,factors_data
+roe,Return on Equity ROE (%),Net profit attributable to shareholders of the parent company * 2/(net assets attributable to shareholders of the parent company at the beginning of the period + net assets attributable to shareholders of the parent company at the end of the period),,factors_data
+inc_return,Return on net assets (excluding non-recurring gains and losses) (%),Net profit after deducting non-recurring gains and losses (excluding minority shareholders gains and losses) * 2/(net assets attributable to shareholders of the parent company at the beginning of the period + net assets attributable to shareholders of the parent company at the end of the period),,factors_data
+roa,Net Interest Rate on Total Assets ROA (%),Net profit * 2/(total assets at the beginning of the period + total assets at the end of the period),,factors_data
+net_profit_margin,Net sales profit margin (%),Net profit/operating income,,factors_data
+gross_profit_margin,Gross sales profit margin (%),Gross Profit/Operating Income,,factors_data
+expense_to_total_revenue,Total operating cost/total operating income (%),Total operating cost/total operating income (%),,factors_data
+operation_profit_to_total_revenue,Operating profit/total operating income (%),Operating profit/total operating income (%),,factors_data
+net_profit_to_total_revenue,Net profit/total operating income (%),Net profit/total operating income (%),,factors_data
+operating_expense_to_total_revenue,Operating expenses/total operating income (%),Operating expenses/total operating income (%),,factors_data
+ga_expense_to_total_revenue,Administrative expenses/total operating income (%),Administrative expenses/total operating income (%),,factors_data
+financing_expense_to_total_revenue,Financial expenses/total operating income (%),Financial expenses/total operating income (%),,factors_data
+operating_profit_to_profit,Net income/total profit from operating activities (%),Net income/total profit from operating activities (%),,factors_data
+invesment_profit_to_profit,Net income from change in value/total profit (%),Net income from change in value/total profit (%),,factors_data
+adjusted_profit_to_profit,Net profit after deducting non-recurring gains and losses/net profit (%),Net profit after deducting non-recurring gains and losses/net profit (%),,factors_data
+goods_sale_and_service_to_revenue,Cash received from sales of goods and rendering of labor services/operating income (%),Cash received from sales of goods and rendering of labor services/operating income (%),,factors_data
+ocf_to_revenue,Net cash flow from operating activities/operating income (%),Net cash flow from operating activities/operating income (%),,factors_data
+ocf_to_operating_profit,Net cash flow from operating activities/net income from operating activities (%),Net cash flow from operating activities/net income from operating activities (%),,factors_data
+inc_total_revenue_year_on_year,Total operating income year-on-year growth rate (%),"The year-on-year growth rate of total operating income is the percentage of the total operating income obtained by an enterprise within a certain period of time and the growth of the total operating income in the same period last year, so as to reflect the growth or decline of the total operating income of the enterprise during this period.",,factors_data
+inc_total_revenue_annual,Quarter-on-quarter growth rate of total operating income (%),"Operating income refers to the total inflow of economic benefits formed by an enterprise in the daily business process such as selling goods, providing labor services and transferring the right to use assets. Month-on-month growth rate = (the value of an indicator in the current period-the value of this indicator in the previous period)/the value of this indicator in the previous period * 100%.",,factors_data
+inc_revenue_year_on_year,Year-on-year growth rate of operating income (%),"Operating income refers to the total inflow of economic benefits formed by the company in the daily business process of selling goods, providing labor services and transferring the right to use assets, while the year-on-year growth rate of operating income is the standard to test whether the listed companys ability to make money has improved last year. The year-on-year increase of operating income indicates that the companys ability to make money in the previous year has strengthened, while the year-on-year decrease of operating income indicates that the companys ability to make money is slightly inferior to that of previous years.",,factors_data
+inc_revenue_annual,Quarter-on-quarter growth rate of operating income (%),Month-on-month growth rate = (the value of an indicator in the current period-the value of this indicator in the previous period)/the value of this indicator in the previous period * 100%.,,factors_data
+inc_operation_profit_year_on_year,Operating profit year-on-year growth rate (%),The year-on-year growth rate refers to the comparison of the companys operating profit for the current period with the operating profit of the same period last month and the same period last year. (Operating profit for the current period-operating profit for the current period of the previous month (previous year))/absolute value of operating profit for the current period of the previous month (previous year) = year-on-year growth rate of profit.,,factors_data
+inc_operation_profit_annual,Operating profit quarter-on-quarter growth rate (%),Month-on-month growth rate = (the value of an indicator in the current period-the value of this indicator in the previous period)/the value of this indicator in the previous period * 100%.,,factors_data
+inc_net_profit_year_on_year,Year-on-year growth rate of net profit (%),(Net profit for the current period-net profit for the current period of last month (previous year))/absolute value of net profit for the current period of last month (previous year) = year-on-year growth rate of net profit.,,factors_data
+inc_net_profit_annual,Net profit month-on-month growth rate (%),Month-on-month growth rate = (the value of an indicator in the current period-the value of this indicator in the previous period)/the value of this indicator in the previous period * 100%.,,factors_data
+inc_net_profit_to_shareholders_year_on_year,Year-on-year growth rate of net profit attributable to shareholders of the parent company (%),"Net profit attributable to shareholders of the parent company refers to the net profit attributable to shareholders of the parent company, including the net profit realized by the parent company and the net profit realized by its subsidiaries; Year-on-year growth rate generally refers to the growth rate compared with the same period last year. The year-on-year growth (magnitude) compared with the previous period, previous year or history.",,factors_data
+inc_net_profit_to_shareholders_annual,Quarter-on-quarter growth rate of net profit attributable to shareholders of the parent company (%),Month-on-month growth rate = (the value of an indicator in the current period-the value of this indicator in the previous period)/the value of this indicator in the previous period * 100%.,,factors_data
+total_loan,Total loan amount (yuan),Numerical value,,factors_data
+total_deposit,Total deposit (yuan),Numerical value,,factors_data
+interest_earning_assets,Interest-earning assets (yuan),Numerical value,,factors_data
+non_interest_earning_assets,Non-interest-earning assets (RMB),Numerical value,,factors_data
+interest_earning_assets_yield,Return on interest-earning assets (%),Numerical value,,factors_data
+interest_bearing_liabilities,Interest-bearing liabilities (RMB),Numerical value,,factors_data
+non_interest_bearing_liabilities,Non-interest-bearing liabilities,Numerical value,,factors_data
+interest_bearing_liabilities_interest_rate,Cost of interest-bearing liabilities (%),Numerical value,,factors_data
+non_interest_income,Non-interest income (RMB),Numerical value,,factors_data
+non_interest_income_ratio,Proportion of non-interest income (%),Numerical value,,factors_data
+net_interest_margin,Net interest margin (%),Numerical value,,factors_data
+net_profit_margin,Net interest spread (%),Numerical value,,factors_data
+core_level_capital,Core Tier 1 Capital (2013) (RMB),Numerical value,,factors_data
+net_core_level_capital,Net core Tier 1 capital (2013) (RMB),Numerical value,,factors_data
+core_level_capital_adequacy_ratio,Core Tier 1 Capital Adequacy Ratio (2013) (%),Numerical value,,factors_data
+net_level_1_capital,Net Tier 1 Capital (2013) (RMB),Numerical value,,factors_data
+level_1_capital_adequacy_ratio,Tier 1 Capital Adequacy Ratio (2013) (%),Numerical value,,factors_data
+net_capital,Net capital (2013) (RMB),Numerical value,,factors_data
+capital_adequacy_ratio,Capital Adequacy Ratio (2013) (%),Numerical value,,factors_data
+weighted_risky_asset,Total risk-weighted assets (2013) (RMB),Numerical value,,factors_data
+deposit_loan_ratio,Ratio of deposits and loans (%),Numerical value,,factors_data
+short_term_asset_liquidity_ratio_CNY,Liquidity ratio of short-term assets (RMB) (%),Numerical value,,factors_data
+short_term_asset_liquidity_ratio_FC,Liquidity ratio of short-term assets (foreign currency) (%),Numerical value,,factors_data
+Nonperforming_loan_rate,Non-performing loan ratio (%),Numerical value,,factors_data
+single_largest_customer_loan_ratio,Percentage of loans to the single largest customer (%),Numerical value,,factors_data
+top_ten_customer_loan_ratio,Proportion of loans to the top ten customers (%),Numerical value,,factors_data
+bad_debts_reserve,Reserve for doubtful loans (yuan),Numerical value,,factors_data
+non_performing_loan_provision_coverage,Non-performing loan provision coverage ratio (%),Numerical value,,factors_data
+cost_to_income_ratio,Cost to revenue ratio (%),Numerical value,,factors_data
+former_core_capital,Core Capital,Numerical value,,factors_data
+former_net_core_capital,Net core capital (old) (RMB),Numerical value,,factors_data
+former_net_core_capital_adequacy_ratio,Core capital adequacy ratio,Numerical value,,factors_data
+former_net_capital,Net capital,Numerical value,,factors_data
+former_capital_adequacy_ratio,Capital Adequacy Ratio,Numerical value,,factors_data
+former_weighted_risky_asset,Net risk-weighted assets (old) (RMB),Numerical value,,factors_data
+normal_amount,Normal-Amount (yuan),Numerical value,,factors_data
+normal_amount_ratio,Proportion of normal amount (%),Numerical value,,factors_data
+concerned_amount,Attention-Amount (yuan),Numerical value,,factors_data
+concerned_amount_ratio,Proportion of attention amount (%),Numerical value,,factors_data
+secondary_amount,Secondary-Amount (yuan),Numerical value,,factors_data
+secondary_amount_ratio,Proportion of secondary amount (%),Numerical value,,factors_data
+suspicious_amount,Suspicious-Amount (yuan),Numerical value,,factors_data
+suspicious_amount_ratio,Proportion of suspicious amounts (%),Numerical value,,factors_data
+loss_amount,Loss-Amount (yuan),Numerical value,,factors_data
+loss_amount_ratio,Proportion of loss amount (%),Numerical value,,factors_data
+short_term_loan_average_balance,Short-term loans-average balance (yuan),Numerical value,,factors_data
+short_term_loan_annualized_average_interest_rate,Short-term loans-average annual interest rate (%),Numerical value,,factors_data
+mid_term_loan_annualized_average_balance,Medium and long-term loans-average balance (yuan),Numerical value,,factors_data
+mid_term_loan_annualized_average_interest_rate,Medium and long-term loans-average annual interest rate (%),Numerical value,,factors_data
+enterprise_deposits_average_balance,Corporate deposits-average balance (yuan),Numerical value,,factors_data
+enterprise_deposits_average_interest_rate,Corporate deposits-average annual interest rate (%),Numerical value,,factors_data
+savings_deposit_average_balance,Savings deposit-average balance (yuan),Numerical value,,macros_data
+savings_deposit_average_interest_rate,Savings deposits-average annual interest rate (%),Numerical value,,macros_data
+spot_sell,Spot selling price,Figure,,macros_data
+cash_offer_prc,Cash selling price,Figure,,macros_data
+safe_prc,SAFE central price,Figure,,macros_data
+bank_reduced_prc,Bank of China conversion price,Figure,,macros_data
+interest_rate_O/N,Overnight lending rate,Figure,,macros_data
+interest_rate_3m,March lending rate,Figure,,macros_data
+interest_rate_1y,One-year lending rate,Figure,,macros_data
+m2,Monetary and quasi-monetary (M2) supply,Figure,,macros_data
+m1,Money (M1) Supply,Figure,,macros_data
+m0,Cash in Circulation (M0) Supply,Figure,,macros_data
+m2_yoy,Money and quasi-monetary (M2) supply growth rate year-on-year,Figure,,macros_data
+m1_yoy,Money (M1) Supply YoY Growth Rate,Figure,,macros_data
+m0_yoy,YoY growth rate of cash in circulation (M0) supply,Figure,,macros_data
+demond_deposit,The supply of demand deposits in the money supply,Figure,,macros_data
+quosi,Quasi-money supply,Figure,,macros_data
+time_deposit,Quasi-money supply time deposit,Figure,,macros_data
+saving_deposit,Quasi-money supply savings deposit,Figure,,macros_data
+other_deposit,Quasi-money supply Other deposits,Figure,,macros_data
+demond_deposit_yoy,Year-on-year growth rate of demand deposit supply in money supply,Figure,,macros_data
+quosi_yoy,Year-on-year growth rate of quasi-money supply,Figure,,macros_data
+time_deposit_yoy,Year-on-year growth rate of quasi-money supply time deposits,Figure,,macros_data
+saving_deposit_yoy,Year-on-year growth rate of quasi-money supply savings deposits,Figure,,macros_data
+other_deposit_yoy,Quasi-money supply Other deposits YoY growth rate,Figure,,macros_data
+foreign_assets,Foreign assets of monetary authorities,Figure,,macros_data
+foreign_exchange,Monetary Authority Foreign Exchange,Figure,,macros_data
+money_gold,Monetary Authority Monetary Gold,Figure,,macros_data
+government_claim,Monetary Authoritys Claims on the Government,Figure,,macros_data
+bank_claim,Monetary authorities claims on deposit currency banks,Figure,,macros_data
+other_finance_claim,Monetary authorities claims against other financial companies,Figure,,macros_data
+non_finance_claim,Monetary authorities claims against non-financial companies,Figure,,macros_data
+reserve_money,Monetary authority savings currency,Figure,,macros_data
+currency_issue,Issuance of reserve currency by monetary authorities,Figure,,macros_data
+bank_deposit,Deposits with monetary authorities Currency Bank deposits,Figure,,macros_data
+other_finance_deposit,Monetary authorities Other financial corporate deposits,Figure,,macros_data
+non_reserve_finance_deposit,Deposits of financial companies not included in reserve currencies by monetary authorities,Figure,,macros_data
+bond_issue,Monetary Authority Issues Bonds,Figure,,macros_data
+government_deposit,Monetary Authority Government Deposits,Figure,,macros_data
+owned_capital,Monetary Authoritys Own Funds,Figure,,macros_data
+rmb_loan,Social financing scale of RMB loans,Figure,,macros_data
+foreign_loan,Foreign currency loans (equivalent to RMB) Social financing scale,Figure,,macros_data
+entrust_loan,Social financing scale of entrusted loans,Figure,,macros_data
+trust_loan,Social financing scale of trust loans,Figure,,macros_data
+out_fulfilled_scale,Social financing scale of undiscounted bank acceptance bills,Figure,,macros_data
+corporate_bond_scale,Social financing scale of corporate bonds,Figure,,macros_data
+non_finance_scale,Scale of social financing of domestic stocks of non-financial enterprises,Figure,,macros_data
+total_trade_amount,Stock transaction amount,Figure,,macros_data
+xshg_avg_pe,Shanghai Average P/E Ratio,Figure,,macros_data
+xshe_avg_pe,Shenzhen Average P/E Ratio,Figure,,macros_data
+xshg_avg_turnover,Shanghai average turnover rate,Figure,,macros_data
+xshe_avg_turnover,Shenzhen average turnover rate,Figure,,macros_data
+treasury_bond_issue,Treasury bond issuance,Figure,,macros_data
+company_bond_issue,Corporate bond issuance,Figure,,macros_data
+bond_amount,Bond turnover,Figure,,macros_data
+treasury_bond_spot_amount,Treasury bond spot transaction amount,Figure,,macros_data
+treasury_bond_repurchase_amount,Treasury bond repurchase transaction amount,Figure,,macros_data
+gold,Gold reserves,Figure,,money_flows_data
+foreign,Foreign exchange reserves,Figure,,money_flows_data
+change_pct,Increase or decrease (%),,,money_flows_data
+net_pct_main,Net proportion of main forces (%),Net proportion of main force = net main force/turnover,,money_flows_data
+net_pct_xl,Net proportion of super-large orders (%),Net proportion of super-large orders = net super-large orders/turnover,,money_flows_data
+net_pct_l,Net proportion of large orders (%),Net proportion of large orders = net amount of large orders/turnover,,money_flows_data
+net_pct_m,Net proportion of medium orders (%),Net mid-order ratio = net mid-order/turnover,,money_flows_data
+net_pct_s,Net proportion of small orders (%),Net proportion of small orders = net small orders/turnover,,money_flows_data
+amount,Turnover,,,money_flows_data
+fin_value,"decimal (20, 2)",Financing balance (yuan),,securities_margins_data
+fin_buy_value,"decimal (20, 2)",Financing purchase amount (yuan),,securities_margins_data
+sec_volume,int,Securities lending balance (shares),,securities_margins_data
+sec_value,"decimal (20, 2)",Balance amount of securities lending (yuan),,securities_margins_data
+sec_sell_volume,int,Securities lending sales volume (shares),,securities_margins_data
+fin_sec_value,"decimal (20, 2)",Balance of margin financing and securities lending (yuan),,securities_margins_data
+HY07101,dummy,Whether the bank is a national bank,,industries_data
+HY07102,dummy,Whether the bank is a regional bank,,industries_data
+included_indexes_number,Numerical value,Total number of enterprises appearing in various composite indexes,,indexes_data
