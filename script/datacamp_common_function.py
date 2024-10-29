@@ -65,7 +65,8 @@ def _systematic_sampling(
         sample_size (int, optional): Size (rows) of the desired sample. Defaults to None.
         sample_frac (float, optional): Fraction of the desired sample to the population dataset.
         random_seed (int, optional): Random seed. Defaults to 42.
-        check_and_return (Callable, optional): Check and return the pop_size, sample_size, sample_frac.
+        check_and_return (Callable, optional): Check and return the pop_size, sample_size,
+        sample_frac.
         Defaults to check_and_return_arguments.
 
     Returns:
@@ -315,7 +316,8 @@ def cluster_sampling(
     Args:
         pop (pd.DataFrame): Population dataset.
         column_sampled (str, optional): The column with specfic sampled values. Default to None.
-        replaces (Tuple[bool, bool], optional): Whether subgroup and sample with replacement. Defaults to (False, False).
+        replaces (Tuple[bool, bool], optional): Whether subgroup and sample with replacement.
+        Defaults to (False, False).
         sample_size (int, optional): Size (rows) of the desired sample. Defaults to None.
         sample_frac (float, optional): Fraction of the desired sample to the population dataset.
         Defaults to None.
@@ -367,7 +369,8 @@ def mutistage_sampling(
         pop (pd.DataFrame): Population dataset.
         columns_sampled_and_size (Dict[str, int], optional): The dict of column-which has specfic sampled
         values-size-which is the subgroup (sampled values) size of each column-pair.
-        replaces (Tuple[bool, bool], optional): Whether subgroup and sample with replacement. Defaults to (False, False).
+        replaces (Tuple[bool, bool], optional): Whether subgroup and sample with replacement.
+        Defaults to (False, False).
         sample_size (int, optional): Size (rows) of the desired sample. Defaults to None.
         sample_frac (float, optional): Fraction of the desired sample to the population dataset.
         Defaults to None.
@@ -409,6 +412,7 @@ def samples_distributing(
     random_seeds: Tuple[int] = None,
     sampling: Callable = simple_sampling,
     stats: Tuple[object] = None,
+    plot: bool = False,
     **kwargs: Dict[str, object]
 ) -> pd.DataFrame:
     """Generates PMF for specified statistics (sample distribution).
@@ -437,6 +441,7 @@ def samples_distributing(
         Select in ['max', 'min', 'sum', 'mod', 'median', 'mean', 'var', 'std',
         lambda samples: np.sqrt(sample_size) * samples.var(ddof=1), # Estimated population stat
         lambda samples: np.sqrt(sample_size) * samples.std(ddof=1)]. # Estimated population stat
+        plot (bool, optional): Whether plot the resample distribution for each statistic of each column.
 
     Returns:
         DataFrame containing statistics for each column in pop.
@@ -450,7 +455,7 @@ def samples_distributing(
     if stats is None:
         stats = ['mean', 'var']
 
-    samples = pd.DataFrame()
+    samples_stats = {col: pd.DataFrame(columns=stats) for col in pop.columns}
 
     for random_seed in random_seeds:
         sample = sampling(
@@ -461,30 +466,32 @@ def samples_distributing(
             random_seed=random_seed,
             **kwargs
         )
-        samples = pd.concat([samples, sample], ignore_index=True)
+        sample_stats = sample.agg(stats)
+        for col in pop.columns:
+            sample_stats_col = sample_stats[[col]].T.reset_index(drop=True)
+            samples_stats[col] = pd.concat([samples_stats[col], sample_stats_col])
 
-    samples_stats = samples.agg(stats, )
+    if plot:
+        num_stats = len(stats)
+        num_cols = len(pop.columns)
+        fig, axes = plt.subplots(
+            nrows=num_stats,
+            ncols=num_cols,
+            figsize=(5 * num_cols, 5 * num_stats),
+            squeeze=False
+        )
+        fig.suptitle('Statistics plots for each column')
 
-    num_stats = len(stats)
-    num_cols = len(pop.columns)
-    fig, axes = plt.subplots(
-        nrows=num_stats,
-        ncols=num_cols,
-        figsize=(5 * num_cols, 5 * num_stats),
-        squeeze=False
-    )
-    fig.suptitle('Statistics plots for each column')
+        for i, stat in enumerate(stats):
+            for j, col in enumerate(pop.columns):
+                axes[i, j].hist(samples_stats[col][stat], bins=samples_count // 10, density=True)
+                axes[i, j].set_title(f'Distribution of {stat} for {col}')
+                axes[i, j].set_xlabel(stat)
+                axes[i, j].set_ylabel('Relative Frequency')
+                axes[i, j].grid(axis='y')
 
-    for i, stat in enumerate(stats):
-        for j, col in enumerate(pop.columns):
-            axes[i, j].hist(samples[col], bins=samples_count // 10, density=True)
-            axes[i, j].set_title(f'Distribution of {stat} for {col}')
-            axes[i, j].set_xlabel(stat)
-            axes[i, j].set_ylabel('Relative Frequency')
-            axes[i, j].grid(axis='y')
-
-    plt.tight_layout()
-    plt.show()
+        plt.tight_layout()
+        plt.show()
 
     return samples_stats
 
@@ -497,6 +504,7 @@ def bootstrapping(
     samples_count: int = 500,
     random_seeds: Tuple[int] = None,
     stats: Tuple[object] = None,
+    plot: bool = False,
     distributing: Callable = samples_distributing,
     **kwargs: Dict[str, object]
 ) -> pd.DataFrame:
@@ -515,6 +523,7 @@ def bootstrapping(
         Select in ['max', 'min', 'sum', 'mean', 'var', 'std',
         lambda samples: np.sqrt(sample_size) * samples.var(ddof=1), # Estimated population stat
         lambda samples: np.sqrt(sample_size) * samples.std(ddof=1)]. # Estimated population stat
+        plot (bool, optional): Whether plot the resample distribution for each statistic of each column.
         distributing (Callable, optional): Based samples distributing.
         Defaults to samples_distributing.
 
@@ -529,6 +538,7 @@ def bootstrapping(
         samples_count=samples_count,
         random_seeds=random_seeds,
         stats=stats,
+        plot=plot,
         **kwargs
     )
 
