@@ -1,8 +1,0 @@
-colorama @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/colorama_1699472650914/work
-iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
-mkl-service==2.4.0
-packaging @ file:///C:/b/abs_c3vlh0z4jw/croot/packaging_1720101866539/work
-pluggy @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pluggy_1699472504117/work
-pytest @ file:///C:/b/abs_een_3z747j/croot/pytest_1717793253670/work
-setuptools==75.1.0
-wheel==0.44.0
