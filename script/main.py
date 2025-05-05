@@ -1493,7 +1493,7 @@ if __name__ == '__main__':
     fig_types = [
         'cate_over_time',
         'cate_by_month',
-        'ate_by_treatment',
+        'cate_by_treatment',
         'ate_distribution',
         'treatment_vs_outcome',
         'causal_forest_feature_importance'

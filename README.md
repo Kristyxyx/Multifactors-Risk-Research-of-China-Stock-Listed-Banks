@@ -4,18 +4,23 @@ This project conducts a multifactor risk analysis of China's stock-listed banks.
 
 ## Project Structure
 
+Key files are like:
 ```
 .
-├── data/                     # Directory for input data (implied, needs specific .pkl files)
+├── data/                     # Directory for input data (implied, downloaded after Usage step)
 │   └── exported_data/        # Processed data files used by scripts
 │       ├── factors_data_train.pkl
 │       ├── fundamentals_data_train.pkl
 │       ├── ... (other factor/data pkl files for train/test)
 │       └── factors_risks_dicts.csv # Factor to risk mapping
+├── model/                    # Directory for trained models (implied, downloaded after Usage step)
+│   ├── bank_causal_forest_forests.pkl # Trained CausalForest model loaded by scripts
+│   ├── risks_premiums_components_curs.pkl # Component or treament risk premiums decomposers, loaded as a list by scripts
+│   └── risks_premiums_components_curs.pkl # Total or outcome risk premiums decomposers, loaded as a list by scripts
 ├── image/                    # Output directory for generated plots and images
 │   ├── risk_factors_clusters.png
 │   ├── causal_effect/
-│   │   ├── ate_by_treatment_*.png
+│   │   ├── cate_by_treatment_*.png
 │   │   ├── cate_over_time_*.png
 │   │   └── ... (various causal effect plots)
 │   └── ... (other visualization outputs)
@@ -34,14 +39,14 @@ This project conducts a multifactor risk analysis of China's stock-listed banks.
 
 ## Data Source
 
-The project requires several pre-processed data files in Pickle (`.pkl`) format, expected to be located in the `./data/exported_data/` directory. These files include:
+The project requires several pre-processed data files in Pickle (`.pkl`) format, expected to be located in the `./data/exported_data/` directory after finishing [Usage](#usage). These files include:
 
 *   Factor data (e.g., `factors_data`, `fundamentals_data`, `macros_data`, etc.)
 *   Bank stock information (`bank_stocks_info`)
 *   Returns data (`returns_data`)
 *   FCF discounted model parameters (`FCF_discounted_model_params_data`)
 
-These files are typically generated from raw financial data sources like Wind Financial Terminal or CSMAR Database through preliminary data processing steps (potentially using scripts like `DataGetter.py` or `export_data.ipynb`). The `factors_risks_dicts.csv` file maps financial factors to risk categories (Default, Liquidity, Market).
+These files are typically generated from raw Chinese financial data sources: [JoinQuant](https://www.joinquant.com) Database through preliminary data processing steps in [Usage](#usage). The `factors_risks_dicts.csv` file maps financial factors to risk categories (Default, Liquidity, Market).
 
 ## Environment
 
@@ -86,12 +91,15 @@ pip install -r requirements.txt
 
 The primary analysis is performed by the `script/main.py` script (or its notebook equivalent `script/main.ipynb`).
 
-1.  **Prepare Data**: Ensure all required `.pkl` data files are present in the `./data/exported_data/` directory. The script can run in 'train' or 'test' mode, requiring corresponding `_train.pkl` or `_test.pkl` files. If `factors_risks_dicts.csv` is missing, `script/factors_risks_dicts_generator.py` might need to be run or adapted.
-2.  **Execute**: Run the main script from the root directory:
+1.  **Prepare Data**: Download the `data.rar` in [Google Drive](https://drive.google.com/file/d/1s_oow9tJfZi22KnecP3lE2FiAGtiHKgY/view?usp=sharing) and unzip it in root directory `./`. Ensure all required `.pkl` data files are present in the `./data/exported_data/` directory. The script can run in 'train' or 'test' mode, requiring corresponding `*_train.pkl` or `*_test.pkl` files. If `factors_risks_dicts.csv` is missing, `script/factors_risks_dicts_generator.py` might need to be run or adapted.
+
+  - *(Optional)*: If you want to skip the training process and used trained models, download the `model.rar` in [Google Drive](https://drive.google.com/file/d/1ZOume8DJvDtKPNw4YwYOWcn7rdViXDma/view?usp=drive_link) and unzip it in root directory `./`.
+
+3.  **Execute via script**: Run the main script from the root directory:
     ```bash
     python ./script/main.py
     ```
-    Alternatively, run the cells within `script/main.ipynb`.
+    *(Optional)* If you want to control the running flow, run by cells within `script/main.ipynb`.
 
 The script performs the following steps:
 *   Loads and merges various factor datasets.
@@ -103,6 +111,12 @@ The script performs the following steps:
 *   Uses CausalForestDML to estimate the causal effect of each risk component premium on the common and idiosyncratic risk premiums, controlling for time trends, seasonality, and other risk components as confounders.
 *   Generates visualizations for factor clusters and causal effects.
 
+4. **Execute via GUI (Optional)**: If you want to utilize the features in **3. Execute via script** step in a more visualized way, make sure the script in that step is executable, and them run the following command in terminal, to activate a [Stramlit](https://streamlit.io/) App:
+
+   ```bash
+   streamlit run streamlt_app.py
+   ```
+
 ## Results
 
 The execution of the script produces several outputs:
@@ -113,7 +127,7 @@ The execution of the script produces several outputs:
     *   Common Risk Premium (`industry_risks_premiums_totals['common_risk']`)
     *   Idiosyncratic Risk Premium (`industry_risks_premiums_totals['idiosyncratic_risk']`)
     *   Risk Component Premiums (`industry_risks_premiums_components['default_risk']`, etc.)
-*   **Causal Models**: Fitted `CausalForestDML` models stored in `modeler.causal_forest_forests`.
+*   **Causal Models**: Fitted `CausalForestDML` models stored in `modeler.causal_forest_forests` as an python object, and stored in `.\model\bank_causal_forest_forests.pkl` as a pickle file.
 *   **Causal Effect Estimates**: Average Treatment Effects (ATE) and Conditional Average Treatment Effects (CATE) for the impact of each risk component on common/idiosyncratic risk.
 *   **Visualizations**: Plots saved in the `image/` directory, including:
     *   `risk_factors_clusters.png`: Visualization of clustered risk factors over time.
