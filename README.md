@@ -46,7 +46,7 @@ The project requires several pre-processed data files in Pickle (`.pkl`) format,
 *   Returns data (`returns_data`)
 *   FCF discounted model parameters (`FCF_discounted_model_params_data`)
 
-These files are typically generated from raw Chinese financial data sources: [JoinQuant](https://www.joinquant.com) Database through preliminary data processing steps in [Usage](#usage). The `factors_risks_dicts.csv` file maps financial factors to risk categories (Default, Liquidity, Market).
+These files are typically generated from raw Chinese financial data sources: [JoinQuant](https://www.joinquant.com) Database through preliminary **Prepare Data** steps in [Usage](#usage). The `factors_risks_dicts.csv` file maps financial factors to risk categories (Default, Liquidity, Market).
 
 ## Environment
 
@@ -93,7 +93,7 @@ The primary analysis is performed by the `script/main.py` script (or its noteboo
 
 1.  **Prepare Data**: Download the `data.rar` in [Google Drive](https://drive.google.com/file/d/1s_oow9tJfZi22KnecP3lE2FiAGtiHKgY/view?usp=sharing) and unzip it in root directory `./`. Ensure all required `.pkl` data files are present in the `./data/exported_data/` directory. The script can run in 'train' or 'test' mode, requiring corresponding `*_train.pkl` or `*_test.pkl` files. If `factors_risks_dicts.csv` is missing, `script/factors_risks_dicts_generator.py` might need to be run or adapted.
 
-  - *(Optional)*: If you want to skip the training process and used trained models, download the `model.rar` in [Google Drive](https://drive.google.com/file/d/1ZOume8DJvDtKPNw4YwYOWcn7rdViXDma/view?usp=drive_link) and unzip it in root directory `./`.
+  - *(Optional)*: If you want to skip the training process and used trained models, download the `model.rar` in [Google Drive](https://drive.google.com/file/d/1ZOume8DJvDtKPNw4YwYOWcn7rdViXDma/view?usp=sharing) and unzip it in root directory `./`.
 
 3.  **Execute via script**: Run the main script from the root directory:
     ```bash
