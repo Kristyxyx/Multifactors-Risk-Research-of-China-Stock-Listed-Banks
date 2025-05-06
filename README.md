@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 The primary analysis is performed by the `script/main.py` script (or its notebook equivalent `script/main.ipynb`).
 
-1.  **Prepare Data**: Download the `data.rar` in [Google Drive](https://drive.google.com/file/d/1s_oow9tJfZi22KnecP3lE2FiAGtiHKgY/view?usp=sharing) and unzip it in root directory `./`.
+1.  **Prepare Data**: Download the `data.rar` in [Google Drive](https://drive.google.com/file/d/1B8liA2nu8hGnfSDTW8BekmNd-qohQsoe/view?usp=sharing) and unzip it in root directory `./`.
 
   - Ensure all required `.pkl` data files are present in the `./data/exported_data/` directory. The script can run in 'train' or 'test' mode, requiring corresponding `*_train.pkl` or `*_test.pkl` files.
 
