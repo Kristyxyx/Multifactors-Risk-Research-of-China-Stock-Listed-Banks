@@ -105,15 +105,15 @@ The primary analysis is performed by the `script/main.py` script (or its noteboo
     ```
     *(Optional)* If you want to control the running flow, run by cells within `script/main.ipynb`.
 
-The script performs the following steps:
-*   Loads and merges various factor datasets.
-*   Cleans data, handles missing values using IterativeImputer (with XGBoost).
-*   Calculates industry-level factors weighted by enterprise value.
-*   Standardizes factors and clusters them into risk categories (Default, Liquidity, Market) using KShape.
-*   Decomposes the industry risk premium (based on WACC) into common and idiosyncratic components using a custom AdaBoost-based regressor (`CustomRegressor`).
-*   Estimates the contribution of each risk category (Default, Liquidity, Market) to the total risk premium.
-*   Uses CausalForestDML to estimate the causal effect of each risk component premium on the common and idiosyncratic risk premiums, controlling for time trends, seasonality, and other risk components as confounders.
-*   Generates visualizations for factor clusters and causal effects.
+    The script performs the following steps:
+    *   Loads and merges various factor datasets.
+    *   Cleans data, handles missing values using IterativeImputer (with XGBoost).
+    *   Calculates industry-level factors weighted by enterprise value.
+    *   Standardizes factors and clusters them into risk categories (Default, Liquidity, Market) using KShape.
+    *   Decomposes the industry risk premium (based on WACC) into common and idiosyncratic components using a custom AdaBoost-based regressor (`CustomRegressor`).
+    *   Estimates the contribution of each risk category (Default, Liquidity, Market) to the total risk premium.
+    *   Uses CausalForestDML to estimate the causal effect of each risk component premium on the common and idiosyncratic risk premiums, controlling for time trends, seasonality, and other risk components as confounders.
+    *   Generates visualizations for factor clusters and causal effects.
 
 3. **Execute via GUI (Optional)**: If you want to utilize the features in **2. Execute via script** step in a more visualized way, make sure the script in that step is executable, and them run the following command in terminal, to activate a [Stramlit](https://streamlit.io/) app GUI:
 
