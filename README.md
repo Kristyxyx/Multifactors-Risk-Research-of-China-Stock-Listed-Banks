@@ -46,7 +46,7 @@ The project requires several pre-processed data files in Pickle (`.pkl`) format,
 *   Returns data (`returns_data`)
 *   FCF discounted model parameters (`FCF_discounted_model_params_data`)
 
-These files are typically exported from raw Chinese financial data sources: [JoinQuant](https://www.joinquant.com) database through API calling. Tbe specific, the data are exported and configured by the following steps:
+These files are typically exported from raw Chinese financial data sources: [JoinQuant](https://www.joinquant.com) database through API calling. To be specific, the data are exported and configured by the following steps:
 
 1. Upload `script/DataGetter_v2.py` and `script/export_data.ipynb` to [JoinQuant Research Environment](https://www.joinquant.com/research) using an account.
 2. Run the `script/export_data.ipynb`, and download all generated pickle files in your environment root directory.
