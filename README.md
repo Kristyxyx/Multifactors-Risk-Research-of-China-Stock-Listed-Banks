@@ -91,11 +91,15 @@ pip install -r requirements.txt
 
 The primary analysis is performed by the `script/main.py` script (or its notebook equivalent `script/main.ipynb`).
 
-1.  **Prepare Data**: Download the `data.rar` in [Google Drive](https://drive.google.com/file/d/1s_oow9tJfZi22KnecP3lE2FiAGtiHKgY/view?usp=sharing) and unzip it in root directory `./`. Ensure all required `.pkl` data files are present in the `./data/exported_data/` directory. The script can run in 'train' or 'test' mode, requiring corresponding `*_train.pkl` or `*_test.pkl` files. If `factors_risks_dicts.csv` is missing, `script/factors_risks_dicts_generator.py` might need to be run or adapted.
+1.  **Prepare Data**: Download the `data.rar` in [Google Drive](https://drive.google.com/file/d/1s_oow9tJfZi22KnecP3lE2FiAGtiHKgY/view?usp=sharing) and unzip it in root directory `./`.
+
+  - Ensure all required `.pkl` data files are present in the `./data/exported_data/` directory. The script can run in 'train' or 'test' mode, requiring corresponding `*_train.pkl` or `*_test.pkl` files.
+
+  - If `factors_risks_dicts.csv` is missing, `script/factors_risks_dicts_generator.py` might need to be run or adapted.
 
   - *(Optional)*: If you want to skip the training process and used trained models, download the `model.rar` in [Google Drive](https://drive.google.com/file/d/1ZOume8DJvDtKPNw4YwYOWcn7rdViXDma/view?usp=sharing) and unzip it in root directory `./`.
 
-3.  **Execute via script**: Run the main script from the root directory:
+2.  **Execute via script**: Run the main script from the root directory:
     ```bash
     python ./script/main.py
     ```
@@ -111,7 +115,7 @@ The script performs the following steps:
 *   Uses CausalForestDML to estimate the causal effect of each risk component premium on the common and idiosyncratic risk premiums, controlling for time trends, seasonality, and other risk components as confounders.
 *   Generates visualizations for factor clusters and causal effects.
 
-4. **Execute via GUI (Optional)**: If you want to utilize the features in **3. Execute via script** step in a more visualized way, make sure the script in that step is executable, and them run the following command in terminal, to activate a [Stramlit](https://streamlit.io/) App:
+3. **Execute via GUI (Optional)**: If you want to utilize the features in **2. Execute via script** step in a more visualized way, make sure the script in that step is executable, and them run the following command in terminal, to activate a [Stramlit](https://streamlit.io/) app GUI:
 
    ```bash
    streamlit run streamlt_app.py
