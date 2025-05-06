@@ -711,7 +711,10 @@ class Modeler():
 
         cur = CustomRegressor(random_state=self.random_state)
         if self.mode == 'train':
-            industry_risk_premium_common = cur.fit_predict(market_risk_premium_common, self.industry_risk_premium)
+            industry_risk_premium_common = cur.fit_predict(
+                market_risk_premium_common,
+                self.industry_risk_premium
+            )
             self.risks_premiums_totals_curs['common_risk'] = cur
 
             # 创建一个新的CustomRegressor对象用于idiosyncratic_risk
@@ -750,7 +753,10 @@ class Modeler():
 
             cur = CustomRegressor(random_state=self.random_state)
             if self.mode == 'train':
-                risk_premium_component = cur.fit_predict(risk_premium_component_factors_df, self.industry_risk_premium)
+                risk_premium_component = cur.fit_predict(
+                    risk_premium_component_factors_df,
+                    self.industry_risk_premium
+                )
                 self.risks_premiums_components_curs[risk_premium_component_name] = cur
 
             elif self.mode == 'test':
@@ -1363,7 +1369,7 @@ class Modeler():
         ax6.set_yticks(range(len(sorted_importances)))
         ax6.set_yticklabels(sorted_feature_names)
 
-        ax6.set_title("Feature Importance for $\mathsf{CauslForest}$", fontsize=14)
+        ax6.set_title("Feature Importance for $\mathsf{CausalForest}$", fontsize=14)
         ax6.set_xlabel("Importance", fontsize=12)
         ax6.grid(alpha=0.3)
         plt.tight_layout()
